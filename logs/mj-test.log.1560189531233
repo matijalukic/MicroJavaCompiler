@@ -1,0 +1,63 @@
+INFO  19:51:29,490 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  19:51:29,496 - #2 program
+INFO  19:51:29,496 - #44 MJProgram
+INFO  19:51:29,496 - #44 int
+INFO  19:51:29,496 - #44 matija
+INFO  19:51:29,497 - #36 ,
+INFO  19:51:29,497 - #44 matija
+INFO  19:51:29,497 - #36 ,
+INFO  19:51:29,497 - #44 matija
+INFO  19:51:29,497 - #41 [
+INFO  19:51:29,497 - #42 ]
+INFO  19:51:29,497 - #35 ;
+INFO  19:51:29,497 - #6 const
+INFO  19:51:29,497 - #44 int
+INFO  19:51:29,497 - #44 jedan
+INFO  19:51:29,497 - #28 =
+INFO  19:51:29,497 - #43 1
+INFO  19:51:29,498 - #35 ;
+INFO  19:51:29,498 - #6 const
+INFO  19:51:29,498 - #44 int
+INFO  19:51:29,498 - #44 pet
+INFO  19:51:29,498 - #28 =
+INFO  19:51:29,498 - #43 5
+INFO  19:51:29,498 - #35 ;
+INFO  19:51:29,498 - #44 int
+INFO  19:51:29,498 - #44 niz
+INFO  19:51:29,498 - #41 [
+INFO  19:51:29,498 - #42 ]
+INFO  19:51:29,498 - #35 ;
+INFO  19:51:29,498 - #44 char
+INFO  19:51:29,499 - #44 nizch
+INFO  19:51:29,499 - #41 [
+INFO  19:51:29,499 - #42 ]
+INFO  19:51:29,499 - #35 ;
+INFO  19:51:29,499 - #9 enum
+INFO  19:51:29,499 - #44 Matija
+INFO  19:51:29,499 - #39 {
+INFO  19:51:29,499 - #44 matija
+INFO  19:51:29,499 - #28 =
+INFO  19:51:29,499 - #43 1
+INFO  19:51:29,499 - #36 ,
+INFO  19:51:29,500 - #44 lukic
+INFO  19:51:29,500 - #28 =
+INFO  19:51:29,500 - #43 2
+INFO  19:51:29,500 - #36 ,
+INFO  19:51:29,500 - #44 najjaci
+INFO  19:51:29,500 - #28 =
+INFO  19:51:29,500 - #43 3
+INFO  19:51:29,500 - #40 }
+INFO  19:51:29,500 - #9 enum
+INFO  19:51:29,500 - #44 Lukic
+INFO  19:51:29,500 - #39 {
+INFO  19:51:29,500 - #44 matija
+INFO  19:51:29,500 - #36 ,
+INFO  19:51:29,500 - #44 jecar
+INFO  19:51:29,500 - #40 }
+INFO  19:51:29,500 - #39 {
+INFO  19:51:29,500 - #5 void
+ERROR 19:51:29,500 - 
+Sintaksna greska na liniji 19
+ERROR 19:51:29,501 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19
+INFO  19:51:29,503 - Print calls = 0
+ERROR 19:51:29,504 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,298 @@
+INFO  22:11:09,123 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  22:11:09,140 - #2 program
+INFO  22:11:09,140 - #45 test301
+INFO  22:11:09,140 - #10 enum
+INFO  22:11:09,140 - #45 Broj
+INFO  22:11:09,141 - #40 {
+INFO  22:11:09,141 - #45 NULA
+INFO  22:11:09,141 - #37 ,
+INFO  22:11:09,141 - #45 JEDAN
+INFO  22:11:09,141 - #37 ,
+INFO  22:11:09,141 - #45 PET
+INFO  22:11:09,141 - #29 =
+INFO  22:11:09,141 - #44 5
+INFO  22:11:09,141 - #37 ,
+INFO  22:11:09,142 - #45 DESET
+INFO  22:11:09,142 - #29 =
+INFO  22:11:09,142 - #44 10
+INFO  22:11:09,142 - #41 }
+INFO  22:11:09,142 - #7 const
+INFO  22:11:09,142 - #45 int
+INFO  22:11:09,142 - #45 jedan
+INFO  22:11:09,142 - #29 =
+INFO  22:11:09,142 - #44 10
+INFO  22:11:09,142 - #36 ;
+INFO  22:11:09,142 - #7 const
+INFO  22:11:09,143 - #45 char
+INFO  22:11:09,143 - #45 aa
+INFO  22:11:09,143 - #29 =
+INFO  22:11:09,143 - #46 2
+INFO  22:11:09,143 - #36 ;
+INFO  22:11:09,143 - #7 const
+INFO  22:11:09,143 - #45 int
+INFO  22:11:09,143 - #45 pet
+INFO  22:11:09,143 - #29 =
+INFO  22:11:09,143 - #44 5
+INFO  22:11:09,143 - #36 ;
+INFO  22:11:09,143 - #7 const
+INFO  22:11:09,143 - #45 bool
+INFO  22:11:09,143 - #45 tri
+INFO  22:11:09,143 - #29 =
+INFO  22:11:09,143 - #47 false
+INFO  22:11:09,143 - #36 ;
+INFO  22:11:09,144 - #45 int
+INFO  22:11:09,144 - #45 niz
+INFO  22:11:09,144 - #42 [
+INFO  22:11:09,144 - #43 ]
+INFO  22:11:09,144 - #36 ;
+INFO  22:11:09,144 - #45 char
+INFO  22:11:09,144 - #45 pet
+INFO  22:11:09,144 - #42 [
+INFO  22:11:09,144 - #43 ]
+INFO  22:11:09,144 - #36 ;
+INFO  22:11:09,144 - #40 {
+INFO  22:11:09,144 - #45 int
+INFO  22:11:09,145 - #45 inc
+INFO  22:11:09,145 - #38 (
+INFO  22:11:09,145 - #45 int
+INFO  22:11:09,145 - #45 broj
+INFO  22:11:09,145 - #39 )
+INFO  22:11:09,145 - #40 {
+INFO  22:11:09,146 - #5 return
+INFO  22:11:09,146 - #45 broj
+INFO  22:11:09,146 - #22 +
+INFO  22:11:09,146 - #45 Broj
+INFO  22:11:09,147 - #19 .
+INFO  22:11:09,147 - #45 JEDAN
+INFO  22:11:09,147 - #36 ;
+INFO  22:11:09,147 - #41 }
+INFO  22:11:09,147 - #6 void
+INFO  22:11:09,147 - #45 mul
+INFO  22:11:09,148 - #38 (
+INFO  22:11:09,148 - #39 )
+INFO  22:11:09,148 - #40 {
+INFO  22:11:09,148 - #5 return
+INFO  22:11:09,148 - #44 2
+INFO  22:11:09,148 - #36 ;
+INFO  22:11:09,148 - #41 }
+INFO  22:11:09,148 - #41 }
+INFO  22:11:09,149 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ProgramVarDeclarating(
+    ProgramVarDeclarating(
+      ProgramConstVarDeclarating(
+        ProgramConstVarDeclarating(
+          ProgramConstVarDeclarating(
+            ProgramConstVarDeclarating(
+              ProgramEnumDeclarating(
+                NoProgramVarDeclarating(
+                ) [NoProgramVarDeclarating]
+                EnumDeclarating(
+                  EnumName(
+                   Broj
+                  ) [EnumName]
+                  EnumDeclaringNoValue(
+                   NULA
+                  ) [EnumDeclaringNoValue]
+                  EnumDeclaratingListMember(
+                    EnumDeclaratingListMember(
+                      EnumDeclaratingListMember(
+                        NoEnumDeclaringList(
+                        ) [NoEnumDeclaringList]
+                        EnumDeclaringNoValue(
+                         JEDAN
+                        ) [EnumDeclaringNoValue]
+                      ) [EnumDeclaratingListMember]
+                      EnumDeclaringValue(
+                       PET
+                        AssignOperation(
+                        ) [AssignOperation]
+                       5
+                      ) [EnumDeclaringValue]
+                    ) [EnumDeclaratingListMember]
+                    EnumDeclaringValue(
+                     DESET
+                      AssignOperation(
+                      ) [AssignOperation]
+                     10
+                    ) [EnumDeclaringValue]
+                  ) [EnumDeclaratingListMember]
+                ) [EnumDeclarating]
+              ) [ProgramEnumDeclarating]
+              ConstVarDeclarating(
+                NumConst(
+                  Type(
+                   int
+                  ) [Type]
+                 jedan
+                  AssignOperation(
+                  ) [AssignOperation]
+                 10
+                ) [NumConst]
+                NoConstDeclaration(
+                ) [NoConstDeclaration]
+              ) [ConstVarDeclarating]
+            ) [ProgramConstVarDeclarating]
+            ConstVarDeclarating(
+              CharConst(
+                Type(
+                 char
+                ) [Type]
+               aa
+                AssignOperation(
+                ) [AssignOperation]
+               2
+              ) [CharConst]
+              NoConstDeclaration(
+              ) [NoConstDeclaration]
+            ) [ConstVarDeclarating]
+          ) [ProgramConstVarDeclarating]
+          ConstVarDeclarating(
+            NumConst(
+              Type(
+               int
+              ) [Type]
+             pet
+              AssignOperation(
+              ) [AssignOperation]
+             5
+            ) [NumConst]
+            NoConstDeclaration(
+            ) [NoConstDeclaration]
+          ) [ConstVarDeclarating]
+        ) [ProgramConstVarDeclarating]
+        ConstVarDeclarating(
+          BoolConst(
+            Type(
+             bool
+            ) [Type]
+           tri
+            AssignOperation(
+            ) [AssignOperation]
+           false
+          ) [BoolConst]
+          NoConstDeclaration(
+          ) [NoConstDeclaration]
+        ) [ConstVarDeclarating]
+      ) [ProgramConstVarDeclarating]
+      VarValidDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarListSingle(
+          VarArray(
+           niz
+          ) [VarArray]
+        ) [VarListSingle]
+      ) [VarValidDeclaration]
+    ) [ProgramVarDeclarating]
+    VarValidDeclaration(
+      Type(
+       char
+      ) [Type]
+      VarListSingle(
+        VarArray(
+         pet
+        ) [VarArray]
+      ) [VarListSingle]
+    ) [VarValidDeclaration]
+  ) [ProgramVarDeclarating]
+  MethodDeclaratingList(
+    MethodDeclaratingList(
+      MethodDeclaratingEpsilon(
+      ) [MethodDeclaratingEpsilon]
+      MethodDeclarating(
+        MethodTypeDeclarating(
+          Type(
+           int
+          ) [Type]
+         inc
+        ) [MethodTypeDeclarating]
+        MethodOptionalParamsDeclaring(
+          MethodParametersDeclaring(
+            Type(
+             int
+            ) [Type]
+           broj
+            ArrayDeclaringOptionalNoValue(
+            ) [ArrayDeclaringOptionalNoValue]
+            MethodParamsEpsilon(
+            ) [MethodParamsEpsilon]
+          ) [MethodParametersDeclaring]
+        ) [MethodOptionalParamsDeclaring]
+        VarsDeclaratingEpsilon(
+        ) [VarsDeclaratingEpsilon]
+        StatementListDeclaring(
+          StatementEpsilon(
+          ) [StatementEpsilon]
+          StatementReturn(
+            ExpressionOptionalValue(
+              Expression(
+                MinusOptionalNoValue(
+                ) [MinusOptionalNoValue]
+                ExpressionAddTermListMember(
+                  ExpressionAddTermEpsilon(
+                    TermMulEpsion(
+                      FactorDesignating(
+                        DesignatorDeclaration(
+                         broj
+                        ) [DesignatorDeclaration]
+                        FactorActualParemeterOptionalNoValue(
+                        ) [FactorActualParemeterOptionalNoValue]
+                      ) [FactorDesignating]
+                    ) [TermMulEpsion]
+                  ) [ExpressionAddTermEpsilon]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  TermMulEpsion(
+                    FactorDesignating(
+                      DesignatorDot(
+                       Broj
+                       JEDAN
+                      ) [DesignatorDot]
+                      FactorActualParemeterOptionalNoValue(
+                      ) [FactorActualParemeterOptionalNoValue]
+                    ) [FactorDesignating]
+                  ) [TermMulEpsion]
+                ) [ExpressionAddTermListMember]
+              ) [Expression]
+            ) [ExpressionOptionalValue]
+          ) [StatementReturn]
+        ) [StatementListDeclaring]
+      ) [MethodDeclarating]
+    ) [MethodDeclaratingList]
+    MethodDeclarating(
+      MethodVoidDeclarating(
+       mul
+      ) [MethodVoidDeclarating]
+      NoMethodParams(
+      ) [NoMethodParams]
+      VarsDeclaratingEpsilon(
+      ) [VarsDeclaratingEpsilon]
+      StatementListDeclaring(
+        StatementEpsilon(
+        ) [StatementEpsilon]
+        StatementReturn(
+          ExpressionOptionalValue(
+            Expression(
+              MinusOptionalNoValue(
+              ) [MinusOptionalNoValue]
+              ExpressionAddTermEpsilon(
+                TermMulEpsion(
+                  FactorNum(
+                   2
+                  ) [FactorNum]
+                ) [TermMulEpsion]
+              ) [ExpressionAddTermEpsilon]
+            ) [Expression]
+          ) [ExpressionOptionalValue]
+        ) [StatementReturn]
+      ) [StatementListDeclaring]
+    ) [MethodDeclarating]
+  ) [MethodDeclaratingList]
+) [Program]
+ERROR 22:11:09,153 - Greska Identfikator pet vec postoji! na liniji 13
+INFO  22:11:09,153 - Print calls = 0
+ERROR 22:11:09,153 - Parsiranje NIJE uspesno zavrseno!

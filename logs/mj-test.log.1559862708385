@@ -1,0 +1,11 @@
+INFO  01:11:41,661 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  01:11:41,663 - #2 program
+INFO  01:11:41,663 - #44 MJProgram
+INFO  01:11:41,663 - #44 int
+INFO  01:11:41,663 - #44 x
+INFO  01:11:41,663 - #35 ;
+INFO  01:11:41,664 - #44 int
+INFO  01:11:41,664 - #44 y
+INFO  01:11:41,664 - #35 ;
+INFO  01:11:41,664 - #39 {
+INFO  01:11:41,664 - #40 }

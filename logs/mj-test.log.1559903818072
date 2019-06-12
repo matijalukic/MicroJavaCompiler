@@ -1,0 +1,10 @@
+INFO  12:35:59,751 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  12:35:59,754 - #2 program
+INFO  12:35:59,754 - #44 MJProgram
+INFO  12:35:59,754 - #39 {
+INFO  12:35:59,755 - #40 }
+ERROR 12:35:59,755 - 
+Sintaksna greska na liniji 3
+ERROR 12:35:59,755 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3
+INFO  12:35:59,757 - Print calls = 0
+ERROR 12:35:59,758 - Parsiranje NIJE uspesno zavrseno!

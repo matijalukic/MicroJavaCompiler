@@ -1,0 +1,11 @@
+INFO  17:07:56,144 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  17:07:56,147 - #2 program
+INFO  17:07:56,147 - #44 MJProgram
+INFO  17:07:56,147 - #44 int
+INFO  17:07:56,147 - #44 xdasdasds
+INFO  17:07:56,147 - #36 ,
+ERROR 17:07:56,147 - 
+Sintaksna greska na liniji 2
+ERROR 17:07:56,147 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+INFO  17:07:56,150 - Print calls = 0
+ERROR 17:07:56,150 - Parsiranje NIJE uspesno zavrseno!

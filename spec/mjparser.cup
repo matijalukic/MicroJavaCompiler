@@ -1,0 +1,427 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, PRINT, READ, RETURN, VOID, CONST, CLASS, INTERFACE, ENUM, EXTENDS, IF, ELSE, FOR, BREAK, CONTINUE, NEW, IMPLEMENTS, DOT, AND, OR, PLUS, INCREMENT, MINUS, DECREMENT, MUL, DIV, MOD, EQUAL, IDENTICAL, NOTIDENTICAL, GREATER, GREATEREQ, LESS, LESSEQ, SEMI, COMMA, LPAREN, RPAREN, LBRACE, RBRACE, LSQUARE, RSQUARE;
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal Character CHARCONST;
+terminal Boolean BOOLCONST;
+
+
+nonterminal ProgramListVarDeclaration, ProgramMethodsList;
+nonterminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamList;
+nonterminal VarDeclaration, ListVarDeclaration, VarDeclarationList, VarListElem; 
+nonterminal StatementList, Statement, Addop;
+nonterminal Unmatched, Matched, VarName, ConstDeclaration, ConstDeclValue;
+nonterminal ConstDeclarationList, ConstDeclarationValue, Assignop;
+nonterminal EnumDeclaration, EnumValue, EnumDeclarationList;
+nonterminal MethodDeclarationList, DesignatorStatementOptional;
+nonterminal MethodParamsOptional, MethodParams, ArrayDeclaresOptional, MethodParamsList;
+nonterminal DesigantorStatement, StatementElseOptional, Condition;
+nonterminal StatementNumConstOptional, ActualParametersOptional, ActualParameters;
+nonterminal ActualParametersExpressionList, ConditionTermList, ConditionTerm;
+nonterminal ConditionFactRelopExpressionOptional, ConditionFactList, ConditionFact;
+nonterminal FactorActualParametersOptional, ConditionOptional;
+nonterminal Mulop, Relop, ArrayDesignator, MinusOptional, VarDeclList;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgramName, Designator, MethodDeclaration, MethodTypeDeclaration, EnumName;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Expression, Factor, FactorExpressionOptional, ExpressionOptional, ExpressionAddTermList; 
+
+precedence left ELSE;
+
+Program ::= (Program) PROG ProgramName ProgramListVarDeclaration LBRACE MethodDeclarationList RBRACE
+;
+
+ProgramName ::=
+        (ProgramName) IDENT:pName
+        ;
+
+
+ProgramListVarDeclaration ::= 	
+							(ProgramConstVarDeclarating) ProgramListVarDeclaration ConstDeclaration
+							|
+							(ProgramVarDeclarating) ProgramListVarDeclaration VarDeclaration			
+							|
+							(ProgramEnumDeclarating) ProgramListVarDeclaration EnumDeclaration
+							|
+							(NoProgramVarDeclarating)/* epsilon */
+							;
+						
+
+
+
+ConstDeclaration ::= (ConstVarDeclarating) CONST ConstDeclarationValue ConstDeclarationList SEMI
+;
+
+ConstDeclarationValue ::= (NumConst) Type IDENT:vName Assignop NUMBER:cNum
+							|
+							(CharConst) Type IDENT:vName Assignop CHARCONST:cChar
+							|
+							(BoolConst) Type IDENT:vName Assignop BOOLCONST:cBool
+							;
+
+ConstDeclarationList ::= (ConstDeclarationListMember) ConstDeclarationList COMMA IDENT:vName Assignop ConstDeclarationValue
+							|
+						(NoConstDeclaration)
+							;
+
+ListVarDeclaration ::= 
+					(VarsDeclarating) ListVarDeclaration VarDeclaration
+					|
+					(VarsDeclaratingEpsilon)
+					;
+
+
+VarDeclaration ::=  
+					(VarValidDeclaration) Type VarDeclarationList SEMI
+					|
+					(VarDeclaratingError) Type error SEMI
+;
+				
+VarDeclarationList ::= 	
+						(VarListSingle) VarListElem
+						|
+						(VarListMultiple) VarDeclarationList COMMA VarListElem
+						|
+						(VarDeclListError1) VarDeclarationList COMMA error
+						|
+						(VarDeclListError2) error COMMA VarListElem
+						;
+
+VarListElem ::= (VarMember) IDENT:vName
+				|
+				(VarArray) IDENT:vName LSQUARE RSQUARE
+				;		
+
+EnumDeclaration ::=
+					(EnumDeclarating) ENUM EnumName LBRACE EnumValue EnumDeclarationList RBRACE
+					;
+
+EnumName ::= (EnumName) IDENT:eName
+;
+
+EnumValue ::= 
+				(EnumDeclaringValue) IDENT:cName Assignop NUMBER:cNum
+				|
+				(EnumDeclaringNoValue) IDENT:cName
+				;
+
+EnumDeclarationList ::=
+					(EnumDeclaratingListMember) EnumDeclarationList COMMA EnumValue
+					|
+					(NoEnumDeclaringList)
+					;
+
+
+MethodDeclarationList ::=
+						(MethodDeclaratingList) MethodDeclarationList MethodDeclaration
+						|
+						(MethodDeclaratingEpsilon)
+						;
+
+MethodDeclaration ::= 
+					(MethodDeclarating) MethodTypeDeclaration LPAREN MethodParamsOptional RPAREN ListVarDeclaration LBRACE StatementList RBRACE
+					;
+
+MethodTypeDeclaration ::= 
+						(MethodTypeDeclarating) Type IDENT:mName
+						|
+						(MethodVoidDeclarating) VOID IDENT:mName
+						;
+
+
+MethodParamsOptional ::= 
+						(MethodOptionalParamsDeclaring) MethodParams
+						|
+						(NoMethodParams)
+						;
+
+ArrayDeclaresOptional ::=
+						(ArrayDeclaringOptionalValue) LSQUARE RSQUARE
+						|
+						(ArrayDeclaringOptionalNoValue)
+						;
+
+MethodParams ::= 
+				(MethodParametersDeclaring) Type IDENT:fName ArrayDeclaresOptional MethodParamsList
+				;
+		
+
+MethodParamsList ::= 
+					(MethodParametersListing) MethodParamsList COMMA Type IDENT ArrayDeclaresOptional
+						|
+						(MethodParamsEpsilon)
+						;
+
+StatementList ::= (StatementListDeclaring) StatementList Statement
+					|
+					(StatementEpsilon)
+					;
+
+Statement ::= 
+				(StatementDesignating) DesigantorStatement SEMI 
+				|
+				(StatementIf) IF LPAREN Condition RPAREN Statement StatementElseOptional
+				|
+				(StatementFor) FOR LPAREN DesignatorStatementOptional SEMI ConditionOptional SEMI DesignatorStatementOptional RPAREN Statement
+				|
+				(StatementBreaking) BREAK SEMI
+				| 
+				(StatementContinue) CONTINUE SEMI
+				|
+				(StatementReturn) RETURN ExpressionOptional SEMI
+				|
+				(StatementRead) READ LPAREN Designator RPAREN SEMI
+				|
+				(StatementPrint) PRINT LPAREN Expression StatementNumConstOptional RPAREN SEMI
+				|
+				(StatementBrace) LBRACE StatementList RBRACE
+				;
+
+StatementNumConstOptional ::=
+								(StatementNumConstOptionalValue) COMMA NUMBER:sNum
+								|
+								(StatementNumConstOptionNoValue)
+								;
+StatementElseOptional ::=
+		(StatementElseOptionalValue) ELSE Statement
+		|
+		(StatementElseOptionalNoValue)
+		;
+
+
+DesigantorStatement ::= (DesignatorAssignExpression) Designator Assignop Expression
+						|
+						(DesignatorAssignExprError) Designator Assignop error
+						|
+						(DesignatorActual) Designator LPAREN ActualParametersOptional RPAREN
+						|
+						(DesignatorIncrementing) Designator INCREMENT
+						|
+						(DesignatorDecrementing) Designator DECREMENT
+						;
+
+ActualParameters ::= 
+					(ActualParameters) Expression ActualParametersExpressionList
+					;
+
+ActualParametersExpressionList ::=
+					(ActualParametersExpressionListMember) ActualParametersExpressionList COMMA Expression
+					|
+					(ActualParametersExpressionListEpsilon)
+					;
+
+ActualParametersOptional ::=
+								(ActualParametersOptionalValue) ActualParameters
+								|
+								(ActualParametersEpsilon)
+								;
+
+
+
+
+
+ExpressionOptional ::= 
+						(ExpressionOptionalValue) Expression
+						|
+						(ExpressionOptionalEpsilon)
+						;
+
+Condition ::= 
+				(Conditioning) ConditionTerm ConditionTermList
+;
+
+ConditionTermList ::= (ConditionTermListMember) ConditionTermList OR ConditionTerm
+						|
+						(ConditionTermEpsilon)
+						;
+
+ConditionTerm ::= (ConditionTerm) ConditionFact ConditionFactList
+;
+
+ConditionFactList ::= 
+						(ConditionFacListMember) ConditionFactList AND ConditionFact
+						|
+						(ConditionListFactEpsilon)
+						;
+
+ConditionFact ::=
+            (ConditionFact) Expression ConditionFactRelopExpressionOptional
+;
+
+
+Expression ::= 
+				(Expression) MinusOptional ExpressionAddTermList
+				;
+
+ExpressionAddTermList ::= 
+							(ExpressionAddTermListMember) ExpressionAddTermList Addop Term
+							|
+							(ExpressionAddTermEpsilon) Term
+							;
+
+
+Term ::= 
+			(TermMulListMember) Term Mulop Factor
+			|
+			(TermMulEpsion) Factor
+			;
+
+Factor ::= 
+			(FactorDesignating) Designator FactorActualParametersOptional
+			|
+			(FactorNum) NUMBER:fNum
+			|
+			(FactorChar) CHARCONST:fChar
+			|
+			(FactorBool) BOOLCONST:fBool
+			|
+			(FactorNew) NEW Type FactorExpressionOptional
+			|
+			(FactorExpression) LPAREN Expression RPAREN
+			;
+
+
+FactorExpressionOptional ::=
+							(FactorExpressOptionalValue) LSQUARE Expression RSQUARE
+							|
+							(FactorExpressOptionalNoValue)
+;
+
+
+FactorActualParametersOptional ::=
+					(FactorActualParametersOptionalValue) LPAREN ActualParametersOptional RPAREN
+					|
+					(FactorActualParemeterOptionalNoValue)
+					;
+					
+					
+MinusOptional ::= 
+			(MinusOptionalValue) MINUS
+			|
+			(MinusOptionalNoValue)
+			;
+
+ConditionFactRelopExpressionOptional ::=
+		(ConditionFactRelopExpressionOptionalValue) Relop Expression
+		|
+		(ConditionFactRelopExpressionOptionalNoValue)
+		;
+
+
+ConditionOptional ::=
+		(ConditionOptionalValue) Condition 
+		|
+		(ConditionOptionalNoValue) 
+		;
+
+
+DesignatorStatementOptional ::=
+		(DesignatorStatementOptionalValue) DesigantorStatement
+		|
+		(DesignatorStatementOptionalNoValue)
+		;
+
+
+Designator ::=
+		(DesignatorDot) IDENT:dName DOT IDENT:rName
+		|
+		(DesignatorArray) ArrayDesignator LSQUARE Expression RSQUARE
+		|
+		(DesignatorDeclaration) IDENT:dName
+		;
+
+ArrayDesignator ::= 
+		(ArrayDesignator) Designator
+		;
+
+Type ::= (Type) IDENT:typeName
+;
+
+Assignop ::= (AssignOperation) EQUAL
+;
+
+Relop ::=
+		(RelopEquals) IDENTICAL
+		|
+		(RelopNotEquals) NOTIDENTICAL
+		|
+		(RelopGreater) GREATER
+		|
+		(RelopGreaterEquals) GREATEREQ
+		|
+		(RelopLess) LESS
+		|
+		(RelopLessEquals) LESSEQ
+		;
+
+Addop ::= 
+		(AddopPlus) PLUS
+		|
+		(AddopMinus) MINUS
+		;
+
+Mulop ::=
+		(MulopMul) MUL
+		|
+		(MulopDiv) DIV
+		|
+		(MulopMod) MOD
+		;
+
+
+
+

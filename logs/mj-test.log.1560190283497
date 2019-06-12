@@ -1,0 +1,67 @@
+INFO  20:11:11,319 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  20:11:11,326 - #2 program
+INFO  20:11:11,326 - #44 MJProgram
+INFO  20:11:11,326 - #44 int
+INFO  20:11:11,326 - #44 matija
+INFO  20:11:11,327 - #36 ,
+INFO  20:11:11,327 - #44 matija
+INFO  20:11:11,327 - #36 ,
+INFO  20:11:11,327 - #44 matija
+INFO  20:11:11,327 - #41 [
+INFO  20:11:11,327 - #42 ]
+INFO  20:11:11,327 - #35 ;
+INFO  20:11:11,327 - #6 const
+INFO  20:11:11,327 - #44 int
+INFO  20:11:11,327 - #44 jedan
+INFO  20:11:11,327 - #28 =
+INFO  20:11:11,327 - #43 1
+INFO  20:11:11,328 - #35 ;
+INFO  20:11:11,328 - #6 const
+INFO  20:11:11,328 - #44 int
+INFO  20:11:11,328 - #44 pet
+INFO  20:11:11,328 - #28 =
+INFO  20:11:11,328 - #43 5
+INFO  20:11:11,328 - #35 ;
+INFO  20:11:11,328 - #44 int
+INFO  20:11:11,328 - #44 niz
+INFO  20:11:11,328 - #41 [
+INFO  20:11:11,328 - #42 ]
+INFO  20:11:11,328 - #35 ;
+INFO  20:11:11,328 - #44 char
+INFO  20:11:11,328 - #44 nizch
+INFO  20:11:11,328 - #41 [
+INFO  20:11:11,329 - #42 ]
+INFO  20:11:11,329 - #35 ;
+INFO  20:11:11,329 - #9 enum
+INFO  20:11:11,329 - #44 Matija
+INFO  20:11:11,329 - #39 {
+INFO  20:11:11,329 - #44 matija
+INFO  20:11:11,329 - #28 =
+INFO  20:11:11,329 - #43 1
+INFO  20:11:11,329 - #36 ,
+INFO  20:11:11,329 - #44 lukic
+INFO  20:11:11,329 - #28 =
+INFO  20:11:11,329 - #43 2
+INFO  20:11:11,329 - #36 ,
+INFO  20:11:11,329 - #44 najjaci
+INFO  20:11:11,329 - #28 =
+INFO  20:11:11,329 - #43 3
+INFO  20:11:11,330 - #40 }
+INFO  20:11:11,330 - #9 enum
+INFO  20:11:11,330 - #44 Lukic
+INFO  20:11:11,330 - #39 {
+INFO  20:11:11,330 - #44 matija
+INFO  20:11:11,330 - #36 ,
+INFO  20:11:11,330 - #44 jecar
+INFO  20:11:11,330 - #40 }
+INFO  20:11:11,330 - #39 {
+INFO  20:11:11,330 - #5 void
+INFO  20:11:11,330 - #44 matija
+INFO  20:11:11,330 - #37 (
+INFO  20:11:11,330 - #38 )
+INFO  20:11:11,330 - #44 int
+ERROR 20:11:11,330 - 
+Sintaksna greska na liniji 20
+ERROR 20:11:11,330 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 20
+INFO  20:11:11,333 - Print calls = 0
+ERROR 20:11:11,333 - Parsiranje NIJE uspesno zavrseno!

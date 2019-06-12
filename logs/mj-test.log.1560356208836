@@ -1,0 +1,357 @@
+INFO  18:16:42,718 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  18:16:42,737 - #2 program
+INFO  18:16:42,737 - #45 test301
+INFO  18:16:42,737 - #10 enum
+INFO  18:16:42,737 - #45 Broj
+INFO  18:16:42,737 - #40 {
+INFO  18:16:42,737 - #45 NULA
+INFO  18:16:42,737 - #37 ,
+INFO  18:16:42,738 - #45 JEDAN
+INFO  18:16:42,738 - #37 ,
+INFO  18:16:42,738 - #45 PET
+INFO  18:16:42,738 - #29 =
+INFO  18:16:42,738 - #44 5
+INFO  18:16:42,738 - #37 ,
+INFO  18:16:42,738 - #45 DESET
+INFO  18:16:42,738 - #29 =
+INFO  18:16:42,738 - #44 10
+INFO  18:16:42,739 - #41 }
+INFO  18:16:42,739 - #7 const
+INFO  18:16:42,739 - #45 int
+INFO  18:16:42,739 - #45 jedan
+INFO  18:16:42,739 - #29 =
+INFO  18:16:42,739 - #44 1
+INFO  18:16:42,739 - #36 ;
+INFO  18:16:42,739 - #7 const
+INFO  18:16:42,740 - #45 int
+INFO  18:16:42,740 - #45 pet
+INFO  18:16:42,740 - #29 =
+INFO  18:16:42,740 - #44 5
+INFO  18:16:42,740 - #36 ;
+INFO  18:16:42,740 - #45 int
+INFO  18:16:42,740 - #45 niz
+INFO  18:16:42,740 - #42 [
+INFO  18:16:42,740 - #43 ]
+INFO  18:16:42,740 - #36 ;
+INFO  18:16:42,740 - #45 char
+INFO  18:16:42,740 - #45 nizch
+INFO  18:16:42,741 - #42 [
+INFO  18:16:42,741 - #43 ]
+INFO  18:16:42,741 - #36 ;
+INFO  18:16:42,741 - #40 {
+INFO  18:16:42,741 - #45 int
+INFO  18:16:42,741 - #45 inc
+INFO  18:16:42,741 - #38 (
+INFO  18:16:42,741 - #45 int
+INFO  18:16:42,741 - #45 broj
+INFO  18:16:42,741 - #39 )
+INFO  18:16:42,742 - #40 {
+INFO  18:16:42,742 - #5 return
+INFO  18:16:42,742 - #45 broj
+INFO  18:16:42,743 - #22 +
+INFO  18:16:42,743 - #45 Broj
+INFO  18:16:42,744 - #19 .
+INFO  18:16:42,744 - #45 JEDAN
+INFO  18:16:42,744 - #36 ;
+INFO  18:16:42,744 - #41 }
+INFO  18:16:42,744 - #6 void
+INFO  18:16:42,746 - #45 mul
+INFO  18:16:42,746 - #38 (
+INFO  18:16:42,746 - #45 int
+INFO  18:16:42,747 - #45 arr
+INFO  18:16:42,747 - #42 [
+INFO  18:16:42,747 - #43 ]
+INFO  18:16:42,747 - #37 ,
+INFO  18:16:42,747 - #45 int
+INFO  18:16:42,747 - #45 index
+INFO  18:16:42,747 - #37 ,
+INFO  18:16:42,747 - #45 int
+INFO  18:16:42,747 - #45 b
+INFO  18:16:42,747 - #39 )
+INFO  18:16:42,747 - #40 {
+INFO  18:16:42,747 - #45 arr
+INFO  18:16:42,747 - #42 [
+INFO  18:16:42,748 - #45 index
+INFO  18:16:42,748 - #43 ]
+INFO  18:16:42,748 - #29 =
+INFO  18:16:42,748 - #45 arr
+INFO  18:16:42,748 - #42 [
+INFO  18:16:42,748 - #45 index
+INFO  18:16:42,748 - #43 ]
+INFO  18:16:42,748 - #26 *
+INFO  18:16:42,748 - #45 b
+INFO  18:16:42,748 - #36 ;
+INFO  18:16:42,749 - #41 }
+INFO  18:16:42,749 - #41 }
+INFO  18:16:42,750 - Program(
+ test301
+  ProgramVarDeclarating(
+    ProgramVarDeclarating(
+      ProgramConstVarDeclarating(
+        ProgramConstVarDeclarating(
+          ProgramEnumDeclarating(
+            NoProgramVarDeclarating(
+            ) [NoProgramVarDeclarating]
+            EnumDeclarating(
+              EnumNaming(
+               Broj
+              ) [EnumNaming]
+              EnumDeclaringNoValue(
+               NULA
+              ) [EnumDeclaringNoValue]
+              EnumDeclaratingListMember(
+                EnumDeclaratingListMember(
+                  EnumDeclaratingListMember(
+                    NoEnumDeclaringList(
+                    ) [NoEnumDeclaringList]
+                    EnumDeclaringNoValue(
+                     JEDAN
+                    ) [EnumDeclaringNoValue]
+                  ) [EnumDeclaratingListMember]
+                  EnumDeclaringValue(
+                   PET
+                    AssignOperation(
+                    ) [AssignOperation]
+                   5
+                  ) [EnumDeclaringValue]
+                ) [EnumDeclaratingListMember]
+                EnumDeclaringValue(
+                 DESET
+                  AssignOperation(
+                  ) [AssignOperation]
+                 10
+                ) [EnumDeclaringValue]
+              ) [EnumDeclaratingListMember]
+            ) [EnumDeclarating]
+          ) [ProgramEnumDeclarating]
+          ConstVarDeclarating(
+            NumConst(
+              Type(
+               int
+              ) [Type]
+             jedan
+              AssignOperation(
+              ) [AssignOperation]
+             1
+            ) [NumConst]
+            NoConstDeclaration(
+            ) [NoConstDeclaration]
+          ) [ConstVarDeclarating]
+        ) [ProgramConstVarDeclarating]
+        ConstVarDeclarating(
+          NumConst(
+            Type(
+             int
+            ) [Type]
+           pet
+            AssignOperation(
+            ) [AssignOperation]
+           5
+          ) [NumConst]
+          NoConstDeclaration(
+          ) [NoConstDeclaration]
+        ) [ConstVarDeclarating]
+      ) [ProgramConstVarDeclarating]
+      VarValidDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarListSingle(
+          VarArray(
+           niz
+          ) [VarArray]
+        ) [VarListSingle]
+      ) [VarValidDeclaration]
+    ) [ProgramVarDeclarating]
+    VarValidDeclaration(
+      Type(
+       char
+      ) [Type]
+      VarListSingle(
+        VarArray(
+         nizch
+        ) [VarArray]
+      ) [VarListSingle]
+    ) [VarValidDeclaration]
+  ) [ProgramVarDeclarating]
+  MethodDeclaratingList(
+    MethodDeclaratingList(
+      MethodDeclaratingEpsilon(
+      ) [MethodDeclaratingEpsilon]
+      MethodDeclarating(
+        MethodTypeDeclarating(
+          Type(
+           int
+          ) [Type]
+         inc
+        ) [MethodTypeDeclarating]
+        MethodOptionalParamsDeclaring(
+          MethodParametersDeclaring(
+            Type(
+             int
+            ) [Type]
+           broj
+            ArrayDeclaringOptionalNoValue(
+            ) [ArrayDeclaringOptionalNoValue]
+            MethodParamsEpsilon(
+            ) [MethodParamsEpsilon]
+          ) [MethodParametersDeclaring]
+        ) [MethodOptionalParamsDeclaring]
+        VarsDeclaratingEpsilon(
+        ) [VarsDeclaratingEpsilon]
+        StatementListDeclaring(
+          StatementEpsilon(
+          ) [StatementEpsilon]
+          StatementReturn(
+            ExpressionOptionalValue(
+              Expression(
+                MinusOptionalNoValue(
+                ) [MinusOptionalNoValue]
+                ExpressionAddTermListMember(
+                  ExpressionAddTermEpsilon(
+                    TermMulEpsion(
+                      FactorDesignating(
+                        DesignatorDeclaration(
+                         broj
+                        ) [DesignatorDeclaration]
+                        FactorActualParemeterOptionalNoValue(
+                        ) [FactorActualParemeterOptionalNoValue]
+                      ) [FactorDesignating]
+                    ) [TermMulEpsion]
+                  ) [ExpressionAddTermEpsilon]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  TermMulEpsion(
+                    FactorDesignating(
+                      DesignatorDot(
+                       Broj
+                       JEDAN
+                      ) [DesignatorDot]
+                      FactorActualParemeterOptionalNoValue(
+                      ) [FactorActualParemeterOptionalNoValue]
+                    ) [FactorDesignating]
+                  ) [TermMulEpsion]
+                ) [ExpressionAddTermListMember]
+              ) [Expression]
+            ) [ExpressionOptionalValue]
+          ) [StatementReturn]
+        ) [StatementListDeclaring]
+      ) [MethodDeclarating]
+    ) [MethodDeclaratingList]
+    MethodDeclarating(
+      MethodVoidDeclarating(
+       mul
+      ) [MethodVoidDeclarating]
+      MethodOptionalParamsDeclaring(
+        MethodParametersDeclaring(
+          Type(
+           int
+          ) [Type]
+         arr
+          ArrayDeclaringOptionalValue(
+          ) [ArrayDeclaringOptionalValue]
+          MethodParametersListing(
+            MethodParametersListing(
+              MethodParamsEpsilon(
+              ) [MethodParamsEpsilon]
+              Type(
+               int
+              ) [Type]
+             index
+              ArrayDeclaringOptionalNoValue(
+              ) [ArrayDeclaringOptionalNoValue]
+            ) [MethodParametersListing]
+            Type(
+             int
+            ) [Type]
+           b
+            ArrayDeclaringOptionalNoValue(
+            ) [ArrayDeclaringOptionalNoValue]
+          ) [MethodParametersListing]
+        ) [MethodParametersDeclaring]
+      ) [MethodOptionalParamsDeclaring]
+      VarsDeclaratingEpsilon(
+      ) [VarsDeclaratingEpsilon]
+      StatementListDeclaring(
+        StatementEpsilon(
+        ) [StatementEpsilon]
+        StatementDesignating(
+          DesignatorAssignExpression(
+            DesignatorArray(
+              ArrayDesignator(
+                DesignatorDeclaration(
+                 arr
+                ) [DesignatorDeclaration]
+              ) [ArrayDesignator]
+              Expression(
+                MinusOptionalNoValue(
+                ) [MinusOptionalNoValue]
+                ExpressionAddTermEpsilon(
+                  TermMulEpsion(
+                    FactorDesignating(
+                      DesignatorDeclaration(
+                       index
+                      ) [DesignatorDeclaration]
+                      FactorActualParemeterOptionalNoValue(
+                      ) [FactorActualParemeterOptionalNoValue]
+                    ) [FactorDesignating]
+                  ) [TermMulEpsion]
+                ) [ExpressionAddTermEpsilon]
+              ) [Expression]
+            ) [DesignatorArray]
+            AssignOperation(
+            ) [AssignOperation]
+            Expression(
+              MinusOptionalNoValue(
+              ) [MinusOptionalNoValue]
+              ExpressionAddTermEpsilon(
+                TermMulListMember(
+                  TermMulEpsion(
+                    FactorDesignating(
+                      DesignatorArray(
+                        ArrayDesignator(
+                          DesignatorDeclaration(
+                           arr
+                          ) [DesignatorDeclaration]
+                        ) [ArrayDesignator]
+                        Expression(
+                          MinusOptionalNoValue(
+                          ) [MinusOptionalNoValue]
+                          ExpressionAddTermEpsilon(
+                            TermMulEpsion(
+                              FactorDesignating(
+                                DesignatorDeclaration(
+                                 index
+                                ) [DesignatorDeclaration]
+                                FactorActualParemeterOptionalNoValue(
+                                ) [FactorActualParemeterOptionalNoValue]
+                              ) [FactorDesignating]
+                            ) [TermMulEpsion]
+                          ) [ExpressionAddTermEpsilon]
+                        ) [Expression]
+                      ) [DesignatorArray]
+                      FactorActualParemeterOptionalNoValue(
+                      ) [FactorActualParemeterOptionalNoValue]
+                    ) [FactorDesignating]
+                  ) [TermMulEpsion]
+                  MulopMul(
+                  ) [MulopMul]
+                  FactorDesignating(
+                    DesignatorDeclaration(
+                     b
+                    ) [DesignatorDeclaration]
+                    FactorActualParemeterOptionalNoValue(
+                    ) [FactorActualParemeterOptionalNoValue]
+                  ) [FactorDesignating]
+                ) [TermMulListMember]
+              ) [ExpressionAddTermEpsilon]
+            ) [Expression]
+          ) [DesignatorAssignExpression]
+        ) [StatementDesignating]
+      ) [StatementListDeclaring]
+    ) [MethodDeclarating]
+  ) [MethodDeclaratingList]
+) [Program]
+INFO  18:16:42,754 - Print calls = 0
+INFO  18:16:42,755 - Generating bytecode file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.obj
+INFO  18:16:42,756 - Parsiranje uspesno zavrseno!

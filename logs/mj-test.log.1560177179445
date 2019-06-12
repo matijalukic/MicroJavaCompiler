@@ -1,0 +1,14 @@
+INFO  16:22:23,633 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  16:22:23,637 - #2 program
+INFO  16:22:23,637 - #44 MJProgram
+INFO  16:22:23,637 - #44 int
+INFO  16:22:23,638 - #44 x
+INFO  16:22:23,638 - #35 ;
+INFO  16:22:23,638 - #44 int
+INFO  16:22:23,638 - #44 y
+INFO  16:22:23,639 - #35 ;
+INFO  16:22:23,639 - #39 {
+INFO  16:22:23,639 - #40 }
+INFO  16:22:23,642 - Print calls = 0
+INFO  16:22:23,643 - Generating bytecode file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.obj
+INFO  16:22:23,644 - Parsiranje uspesno zavrseno!

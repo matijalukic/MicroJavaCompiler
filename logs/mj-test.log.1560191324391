@@ -1,0 +1,66 @@
+INFO  20:28:38,223 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  20:28:38,231 - #2 program
+INFO  20:28:38,231 - #44 MJProgram
+INFO  20:28:38,231 - #44 int
+INFO  20:28:38,231 - #44 matija
+INFO  20:28:38,231 - #36 ,
+INFO  20:28:38,232 - #44 matija
+INFO  20:28:38,232 - #36 ,
+INFO  20:28:38,232 - #44 matija
+INFO  20:28:38,232 - #41 [
+INFO  20:28:38,232 - #42 ]
+INFO  20:28:38,232 - #35 ;
+INFO  20:28:38,232 - #6 const
+INFO  20:28:38,232 - #44 int
+INFO  20:28:38,232 - #44 jedan
+INFO  20:28:38,232 - #28 =
+INFO  20:28:38,232 - #43 1
+INFO  20:28:38,233 - #35 ;
+INFO  20:28:38,233 - #6 const
+INFO  20:28:38,233 - #44 int
+INFO  20:28:38,233 - #44 pet
+INFO  20:28:38,233 - #28 =
+INFO  20:28:38,233 - #43 5
+INFO  20:28:38,233 - #35 ;
+INFO  20:28:38,233 - #44 int
+INFO  20:28:38,233 - #44 niz
+INFO  20:28:38,233 - #41 [
+INFO  20:28:38,233 - #42 ]
+INFO  20:28:38,233 - #35 ;
+INFO  20:28:38,233 - #44 char
+INFO  20:28:38,233 - #44 nizch
+INFO  20:28:38,233 - #41 [
+INFO  20:28:38,233 - #42 ]
+INFO  20:28:38,233 - #35 ;
+INFO  20:28:38,233 - #9 enum
+INFO  20:28:38,234 - #44 Matija
+INFO  20:28:38,234 - #39 {
+INFO  20:28:38,234 - #44 matija
+INFO  20:28:38,234 - #28 =
+INFO  20:28:38,234 - #43 1
+INFO  20:28:38,234 - #36 ,
+INFO  20:28:38,234 - #44 lukic
+INFO  20:28:38,234 - #28 =
+INFO  20:28:38,234 - #43 2
+INFO  20:28:38,234 - #36 ,
+INFO  20:28:38,234 - #44 najjaci
+INFO  20:28:38,234 - #28 =
+INFO  20:28:38,234 - #43 3
+INFO  20:28:38,234 - #40 }
+INFO  20:28:38,235 - #9 enum
+INFO  20:28:38,235 - #44 Lukic
+INFO  20:28:38,235 - #39 {
+INFO  20:28:38,235 - #44 matija
+INFO  20:28:38,235 - #36 ,
+INFO  20:28:38,235 - #44 jecar
+INFO  20:28:38,235 - #40 }
+INFO  20:28:38,235 - #39 {
+INFO  20:28:38,235 - #5 void
+INFO  20:28:38,235 - #44 matija
+INFO  20:28:38,235 - #37 (
+INFO  20:28:38,235 - #44 int
+ERROR 20:28:38,235 - 
+Sintaksna greska na liniji 19
+ERROR 20:28:38,235 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19
+INFO  20:28:38,238 - Print calls = 0
+ERROR 20:28:38,238 - Parsiranje NIJE uspesno zavrseno!

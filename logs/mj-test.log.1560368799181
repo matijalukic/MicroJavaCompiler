@@ -1,0 +1,32 @@
+INFO  21:46:16,206 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  21:46:16,224 - #2 program
+INFO  21:46:16,224 - #45 test301
+INFO  21:46:16,224 - #10 enum
+INFO  21:46:16,225 - #45 Broj
+INFO  21:46:16,225 - #40 {
+INFO  21:46:16,225 - #45 NULA
+INFO  21:46:16,225 - #37 ,
+INFO  21:46:16,226 - #45 JEDAN
+INFO  21:46:16,226 - #37 ,
+INFO  21:46:16,226 - #45 PET
+INFO  21:46:16,226 - #29 =
+INFO  21:46:16,226 - #44 5
+INFO  21:46:16,226 - #37 ,
+INFO  21:46:16,227 - #45 DESET
+INFO  21:46:16,227 - #29 =
+INFO  21:46:16,227 - #44 10
+INFO  21:46:16,227 - #41 }
+INFO  21:46:16,227 - #7 const
+INFO  21:46:16,227 - #45 int
+INFO  21:46:16,227 - #45 jedan
+INFO  21:46:16,227 - #29 =
+INFO  21:46:16,228 - #46 a
+INFO  21:46:16,228 - #36 ;
+INFO  21:46:16,228 - #7 const
+INFO  21:46:16,228 - #45 char
+INFO  21:46:16,228 - #45 aa
+INFO  21:46:16,228 - #29 =
+INFO  21:46:16,228 - #45 a
+ERROR 21:46:16,228 - 
+Sintaksna greska na liniji 7
+ERROR 21:46:16,228 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

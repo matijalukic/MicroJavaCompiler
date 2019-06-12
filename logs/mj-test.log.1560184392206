@@ -1,0 +1,62 @@
+INFO  18:32:37,173 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  18:32:37,178 - #2 program
+INFO  18:32:37,178 - #44 MJProgram
+INFO  18:32:37,178 - #44 int
+INFO  18:32:37,179 - #44 matija
+INFO  18:32:37,179 - #36 ,
+INFO  18:32:37,179 - #44 matija
+INFO  18:32:37,179 - #36 ,
+INFO  18:32:37,179 - #44 matija
+INFO  18:32:37,179 - #41 [
+INFO  18:32:37,179 - #42 ]
+INFO  18:32:37,179 - #35 ;
+INFO  18:32:37,179 - #6 const
+INFO  18:32:37,180 - #44 int
+INFO  18:32:37,180 - #44 jedan
+INFO  18:32:37,180 - #28 =
+INFO  18:32:37,180 - #43 1
+INFO  18:32:37,180 - #35 ;
+INFO  18:32:37,180 - #6 const
+INFO  18:32:37,180 - #44 int
+INFO  18:32:37,180 - #44 pet
+INFO  18:32:37,180 - #28 =
+INFO  18:32:37,180 - #43 5
+INFO  18:32:37,180 - #35 ;
+INFO  18:32:37,180 - #44 int
+INFO  18:32:37,181 - #44 niz
+INFO  18:32:37,181 - #41 [
+INFO  18:32:37,181 - #42 ]
+INFO  18:32:37,181 - #35 ;
+INFO  18:32:37,181 - #44 char
+INFO  18:32:37,181 - #44 nizch
+INFO  18:32:37,181 - #41 [
+INFO  18:32:37,181 - #42 ]
+INFO  18:32:37,181 - #35 ;
+INFO  18:32:37,181 - #9 enum
+ERROR 18:32:37,181 - 
+Sintaksna greska na liniji 9
+INFO  18:32:37,181 - #44 Matija
+INFO  18:32:37,181 - #39 {
+INFO  18:32:37,181 - #44 matija
+INFO  18:32:37,181 - #36 ,
+INFO  18:32:37,181 - #44 lukic
+INFO  18:32:37,181 - #36 ,
+INFO  18:32:37,181 - #44 je
+INFO  18:32:37,182 - #36 ,
+INFO  18:32:37,182 - #44 car
+INFO  18:32:37,182 - #28 =
+ERROR 18:32:37,182 - 
+Sintaksna greska na liniji 14
+INFO  18:32:37,182 - #43 10
+INFO  18:32:37,182 - #36 ,
+INFO  18:32:37,182 - #44 najveci
+INFO  18:32:37,182 - #36 ,
+INFO  18:32:37,182 - #44 nasvijet
+INFO  18:32:37,182 - #28 =
+ERROR 18:32:37,182 - 
+Sintaksna greska na liniji 16
+INFO  18:32:37,182 - #43 12
+INFO  18:32:37,182 - #40 }
+INFO  18:32:37,182 - #39 {
+INFO  18:32:37,182 - #40 }
+ERROR 18:32:37,182 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

@@ -1,0 +1,36 @@
+// Test301
+
+program test301
+	enum Broj { NULA, JEDAN, PET=5, DESET=10}
+	const int jedan = 10;
+	const char aa = '2';
+	const int pet = 5;
+    const bool tri = false;
+
+    //int mathnsad asdbnbdsa, lukic;
+    int matija;
+	int niz[];
+	char niz3[];
+
+    Broj enumArra[];
+{
+	int inc()
+	    int broj;
+	    Broj enumInstance;
+	{
+	 	return broj + Broj.JEDAN;
+	}
+
+	void mul()
+	    int nikola;
+	    char slovo;
+	    Broj broj2;
+	{
+        broj2 = Broj.JEDAN;
+        niz[3] = 14;
+		return 2;
+	}
+
+
+}
+

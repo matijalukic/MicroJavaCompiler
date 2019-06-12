@@ -1,0 +1,12 @@
+INFO  17:23:34,001 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  17:23:34,007 - #2 program
+INFO  17:23:34,007 - #44 MJProgram
+INFO  17:23:34,007 - #44 int
+INFO  17:23:34,007 - #44 matija
+INFO  17:23:34,007 - #35 ;
+ERROR 17:23:34,007 - 
+Sintaksna greska na liniji 2
+INFO  17:23:34,007 - #39 {
+INFO  17:23:34,007 - #40 }
+INFO  17:23:34,010 - Print calls = 0
+ERROR 17:23:34,011 - Parsiranje NIJE uspesno zavrseno!

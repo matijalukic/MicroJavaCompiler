@@ -1,0 +1,15 @@
+INFO  16:36:41,178 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  16:36:41,181 - #2 program
+INFO  16:36:41,181 - #44 MJProgram
+INFO  16:36:41,181 - #44 int
+INFO  16:36:41,181 - #44 x
+INFO  16:36:41,182 - #35 ;
+INFO  16:36:41,182 - #44 int
+INFO  16:36:41,182 - #44 y
+INFO  16:36:41,182 - #35 ;
+INFO  16:36:41,182 - #6 const
+ERROR 16:36:41,182 - 
+Sintaksna greska na liniji 4
+ERROR 16:36:41,182 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4
+INFO  16:36:41,185 - Print calls = 0
+ERROR 16:36:41,185 - Parsiranje NIJE uspesno zavrseno!

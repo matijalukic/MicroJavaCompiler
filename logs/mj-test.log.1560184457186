@@ -1,0 +1,56 @@
+INFO  18:33:47,031 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  18:33:47,038 - #2 program
+INFO  18:33:47,038 - #44 MJProgram
+INFO  18:33:47,038 - #44 int
+INFO  18:33:47,038 - #44 matija
+INFO  18:33:47,039 - #36 ,
+INFO  18:33:47,039 - #44 matija
+INFO  18:33:47,039 - #36 ,
+INFO  18:33:47,039 - #44 matija
+INFO  18:33:47,039 - #41 [
+INFO  18:33:47,039 - #42 ]
+INFO  18:33:47,039 - #35 ;
+INFO  18:33:47,039 - #6 const
+INFO  18:33:47,039 - #44 int
+INFO  18:33:47,039 - #44 jedan
+INFO  18:33:47,039 - #28 =
+INFO  18:33:47,039 - #43 1
+INFO  18:33:47,040 - #35 ;
+INFO  18:33:47,040 - #6 const
+INFO  18:33:47,040 - #44 int
+INFO  18:33:47,040 - #44 pet
+INFO  18:33:47,040 - #28 =
+INFO  18:33:47,040 - #43 5
+INFO  18:33:47,040 - #35 ;
+INFO  18:33:47,040 - #44 int
+INFO  18:33:47,040 - #44 niz
+INFO  18:33:47,040 - #41 [
+INFO  18:33:47,040 - #42 ]
+INFO  18:33:47,040 - #35 ;
+INFO  18:33:47,040 - #44 char
+INFO  18:33:47,040 - #44 nizch
+INFO  18:33:47,040 - #41 [
+INFO  18:33:47,041 - #42 ]
+INFO  18:33:47,041 - #35 ;
+INFO  18:33:47,041 - #9 enum
+INFO  18:33:47,041 - #44 Matija
+INFO  18:33:47,041 - #39 {
+INFO  18:33:47,041 - #44 matija
+INFO  18:33:47,041 - #36 ,
+INFO  18:33:47,041 - #44 lukic
+INFO  18:33:47,041 - #36 ,
+INFO  18:33:47,041 - #44 je
+INFO  18:33:47,041 - #36 ,
+INFO  18:33:47,041 - #44 car
+INFO  18:33:47,041 - #28 =
+INFO  18:33:47,041 - #43 10
+INFO  18:33:47,041 - #36 ,
+INFO  18:33:47,042 - #44 najveci
+INFO  18:33:47,042 - #36 ,
+INFO  18:33:47,042 - #44 nasvijet
+INFO  18:33:47,042 - #40 }
+INFO  18:33:47,042 - #39 {
+INFO  18:33:47,042 - #40 }
+INFO  18:33:47,045 - Print calls = 0
+INFO  18:33:47,045 - Generating bytecode file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.obj
+INFO  18:33:47,046 - Parsiranje uspesno zavrseno!

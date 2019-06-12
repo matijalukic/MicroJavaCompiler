@@ -1,0 +1,39 @@
+INFO  18:31:56,773 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  18:31:56,778 - #2 program
+INFO  18:31:56,778 - #44 MJProgram
+INFO  18:31:56,778 - #44 int
+INFO  18:31:56,779 - #44 matija
+INFO  18:31:56,779 - #36 ,
+INFO  18:31:56,779 - #44 matija
+INFO  18:31:56,779 - #36 ,
+INFO  18:31:56,779 - #44 matija
+INFO  18:31:56,779 - #41 [
+INFO  18:31:56,779 - #42 ]
+INFO  18:31:56,779 - #35 ;
+INFO  18:31:56,779 - #6 const
+INFO  18:31:56,779 - #44 int
+INFO  18:31:56,779 - #44 jedan
+INFO  18:31:56,780 - #28 =
+INFO  18:31:56,780 - #43 1
+INFO  18:31:56,780 - #35 ;
+INFO  18:31:56,780 - #6 const
+INFO  18:31:56,780 - #44 int
+INFO  18:31:56,780 - #44 pet
+INFO  18:31:56,780 - #28 =
+INFO  18:31:56,780 - #43 5
+INFO  18:31:56,780 - #35 ;
+INFO  18:31:56,780 - #44 int
+INFO  18:31:56,780 - #44 niz
+INFO  18:31:56,780 - #41 [
+INFO  18:31:56,781 - #42 ]
+INFO  18:31:56,781 - #35 ;
+INFO  18:31:56,781 - #44 char
+INFO  18:31:56,781 - #44 nizch
+INFO  18:31:56,781 - #41 [
+INFO  18:31:56,781 - #42 ]
+INFO  18:31:56,781 - #35 ;
+INFO  18:31:56,781 - #39 {
+INFO  18:31:56,781 - #40 }
+INFO  18:31:56,784 - Print calls = 0
+INFO  18:31:56,784 - Generating bytecode file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.obj
+INFO  18:31:56,785 - Parsiranje uspesno zavrseno!

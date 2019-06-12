@@ -1,0 +1,37 @@
+INFO  17:30:11,717 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  17:30:11,722 - #2 program
+INFO  17:30:11,722 - #44 MJProgram
+INFO  17:30:11,722 - #44 int
+INFO  17:30:11,722 - #44 matija
+INFO  17:30:11,722 - #36 ,
+INFO  17:30:11,722 - #44 matija
+INFO  17:30:11,723 - #35 ;
+INFO  17:30:11,723 - #6 const
+ERROR 17:30:11,723 - 
+Sintaksna greska na liniji 3
+INFO  17:30:11,723 - #44 int
+INFO  17:30:11,723 - #44 jedan
+INFO  17:30:11,723 - #28 =
+INFO  17:30:11,723 - #43 1
+INFO  17:30:11,723 - #35 ;
+INFO  17:30:11,723 - #6 const
+INFO  17:30:11,723 - #44 int
+INFO  17:30:11,723 - #44 pet
+INFO  17:30:11,723 - #28 =
+INFO  17:30:11,723 - #43 5
+INFO  17:30:11,723 - #35 ;
+INFO  17:30:11,723 - #44 int
+INFO  17:30:11,723 - #44 niz
+INFO  17:30:11,723 - #41 [
+INFO  17:30:11,723 - #42 ]
+INFO  17:30:11,724 - #35 ;
+INFO  17:30:11,724 - #44 char
+INFO  17:30:11,724 - #44 nizch
+INFO  17:30:11,724 - #41 [
+INFO  17:30:11,724 - #42 ]
+INFO  17:30:11,724 - #35 ;
+INFO  17:30:11,724 - #39 {
+INFO  17:30:11,724 - #40 }
+ERROR 17:30:11,724 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  17:30:11,727 - Print calls = 0
+ERROR 17:30:11,727 - Parsiranje NIJE uspesno zavrseno!
