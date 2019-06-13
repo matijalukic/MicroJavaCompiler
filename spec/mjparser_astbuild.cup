@@ -92,6 +92,7 @@ nonterminal MethodParamsOptional MethodParamsOptional;
 nonterminal MethodParams MethodParams;
 nonterminal ArrayDeclaresOptional ArrayDeclaresOptional;
 nonterminal MethodParamsList MethodParamsList;
+nonterminal MethodParam MethodParam;
 nonterminal DesigantorStatement DesigantorStatement;
 nonterminal StatementElseOptional StatementElseOptional;
 nonterminal Condition Condition;
@@ -231,15 +232,18 @@ ArrayDeclaresOptional ::=
 						;
 
 MethodParams ::= 
-				(MethodParametersDeclaring) Type:T1 IDENT:fName ArrayDeclaresOptional:A2 MethodParamsList:M3 {: RESULT=new MethodParametersDeclaring(T1, fName, A2, M3); RESULT.setLine(T1left); :}
+				(MethodParametersDeclaring) MethodParam:M1 MethodParamsList:M2 {: RESULT=new MethodParametersDeclaring(M1, M2); RESULT.setLine(M1left); :}
 				;
 		
 
 MethodParamsList ::= 
-					(MethodParametersListing) MethodParamsList:M1 COMMA Type:T2 IDENT:I3 ArrayDeclaresOptional:A4 {: RESULT=new MethodParametersListing(M1, T2, I3, A4); RESULT.setLine(M1left); :}
+					(MethodParametersListing) MethodParamsList:M1 COMMA MethodParam:M2 {: RESULT=new MethodParametersListing(M1, M2); RESULT.setLine(M1left); :}
 						|
 						(MethodParamsEpsilon) {: RESULT=new MethodParamsEpsilon(); :}
 						;
+MethodParam ::=
+                (MethodParamDeclaring) Type:T1 IDENT:pName ArrayDeclaresOptional:A2 {: RESULT=new MethodParamDeclaring(T1, pName, A2); RESULT.setLine(T1left); :}
+                ;
 
 StatementList ::= (StatementListDeclaring) StatementList:S1 Statement:S2 {: RESULT=new StatementListDeclaring(S1, S2); RESULT.setLine(S1left); :}
 					|

@@ -69,7 +69,7 @@ nonterminal Unmatched, Matched, VarName, ConstDeclaration, ConstDeclValue;
 nonterminal ConstDeclarationList, ConstDeclarationValue, Assignop;
 nonterminal EnumDeclaration, EnumValue, EnumDeclarationList;
 nonterminal MethodDeclarationList, DesignatorStatementOptional;
-nonterminal MethodParamsOptional, MethodParams, ArrayDeclaresOptional, MethodParamsList;
+nonterminal MethodParamsOptional, MethodParams, ArrayDeclaresOptional, MethodParamsList, MethodParam;
 nonterminal DesigantorStatement, StatementElseOptional, Condition;
 nonterminal StatementNumConstOptional, ActualParametersOptional, ActualParameters;
 nonterminal ActualParametersExpressionList, ConditionTermList, ConditionTerm;
@@ -196,15 +196,18 @@ ArrayDeclaresOptional ::=
 						;
 
 MethodParams ::= 
-				(MethodParametersDeclaring) Type IDENT:fName ArrayDeclaresOptional MethodParamsList
+				(MethodParametersDeclaring) MethodParam MethodParamsList
 				;
 		
 
 MethodParamsList ::= 
-					(MethodParametersListing) MethodParamsList COMMA Type IDENT ArrayDeclaresOptional
+					(MethodParametersListing) MethodParamsList COMMA MethodParam
 						|
 						(MethodParamsEpsilon)
 						;
+MethodParam ::=
+                (MethodParamDeclaring) Type IDENT:pName ArrayDeclaresOptional
+                ;
 
 StatementList ::= (StatementListDeclaring) StatementList Statement
 					|

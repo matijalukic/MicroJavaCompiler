@@ -1,49 +1,28 @@
 // generated with ast extension for cup
 // version 0.8
-// 12/5/2019 20:22:16
+// 13/5/2019 11:29:5
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class MethodParametersDeclaring extends MethodParams {
 
-    private Type Type;
-    private String fName;
-    private ArrayDeclaresOptional ArrayDeclaresOptional;
+    private MethodParam MethodParam;
     private MethodParamsList MethodParamsList;
 
-    public MethodParametersDeclaring (Type Type, String fName, ArrayDeclaresOptional ArrayDeclaresOptional, MethodParamsList MethodParamsList) {
-        this.Type=Type;
-        if(Type!=null) Type.setParent(this);
-        this.fName=fName;
-        this.ArrayDeclaresOptional=ArrayDeclaresOptional;
-        if(ArrayDeclaresOptional!=null) ArrayDeclaresOptional.setParent(this);
+    public MethodParametersDeclaring (MethodParam MethodParam, MethodParamsList MethodParamsList) {
+        this.MethodParam=MethodParam;
+        if(MethodParam!=null) MethodParam.setParent(this);
         this.MethodParamsList=MethodParamsList;
         if(MethodParamsList!=null) MethodParamsList.setParent(this);
     }
 
-    public Type getType() {
-        return Type;
+    public MethodParam getMethodParam() {
+        return MethodParam;
     }
 
-    public void setType(Type Type) {
-        this.Type=Type;
-    }
-
-    public String getFName() {
-        return fName;
-    }
-
-    public void setFName(String fName) {
-        this.fName=fName;
-    }
-
-    public ArrayDeclaresOptional getArrayDeclaresOptional() {
-        return ArrayDeclaresOptional;
-    }
-
-    public void setArrayDeclaresOptional(ArrayDeclaresOptional ArrayDeclaresOptional) {
-        this.ArrayDeclaresOptional=ArrayDeclaresOptional;
+    public void setMethodParam(MethodParam MethodParam) {
+        this.MethodParam=MethodParam;
     }
 
     public MethodParamsList getMethodParamsList() {
@@ -59,21 +38,18 @@ public class MethodParametersDeclaring extends MethodParams {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(Type!=null) Type.accept(visitor);
-        if(ArrayDeclaresOptional!=null) ArrayDeclaresOptional.accept(visitor);
+        if(MethodParam!=null) MethodParam.accept(visitor);
         if(MethodParamsList!=null) MethodParamsList.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(Type!=null) Type.traverseTopDown(visitor);
-        if(ArrayDeclaresOptional!=null) ArrayDeclaresOptional.traverseTopDown(visitor);
+        if(MethodParam!=null) MethodParam.traverseTopDown(visitor);
         if(MethodParamsList!=null) MethodParamsList.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(Type!=null) Type.traverseBottomUp(visitor);
-        if(ArrayDeclaresOptional!=null) ArrayDeclaresOptional.traverseBottomUp(visitor);
+        if(MethodParam!=null) MethodParam.traverseBottomUp(visitor);
         if(MethodParamsList!=null) MethodParamsList.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -83,17 +59,8 @@ public class MethodParametersDeclaring extends MethodParams {
         buffer.append(tab);
         buffer.append("MethodParametersDeclaring(\n");
 
-        if(Type!=null)
-            buffer.append(Type.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
-        buffer.append("\n");
-
-        buffer.append(" "+tab+fName);
-        buffer.append("\n");
-
-        if(ArrayDeclaresOptional!=null)
-            buffer.append(ArrayDeclaresOptional.toString("  "+tab));
+        if(MethodParam!=null)
+            buffer.append(MethodParam.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

@@ -147,6 +147,27 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		Tab.openScope(); // open method scope
 	}
 
+	@Override
+	public void visit(MethodParamDeclaring methodParams){
+		Scope scope = Tab.currentScope;
+		String name  = methodParams.getPName();
+		if(existsInCurrentScope(methodParams.getPName())){
+			report_error("Identifikator " + methodParams.getPName() + " je vec definisan u metodi!", methodParams);
+		}
+		// doesnt exists
+		else{
+			// if it is array
+			if(methodParams.getArrayDeclaresOptional() instanceof  ArrayDeclaringOptionalValue){
+				// insert array into local scope chain
+				Tab.insert(Obj.Var, methodParams.getPName(), new Struct(Struct.Array, lastType));
+			}
+			else{
+				// insert variable into chain
+				Tab.insert(Obj.Var, methodParams.getPName(), lastType);
+			}
+		}
+	}
+
 
 	@Override
 	public void visit(MethodDeclarating methodDeclaration){
@@ -165,7 +186,6 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	/**
 	 * Enum declarating
 	 */
-
 	private int enumValue; // enum value counter
 
 	@Override
