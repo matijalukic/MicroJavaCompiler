@@ -6,6 +6,8 @@ import rs.etf.pp1.symboltable.*;
 import rs.etf.pp1.symboltable.concepts.*;
 import rs.etf.pp1.symboltable.visitors.DumpSymbolTableVisitor;
 
+import java.util.*;
+
 
 public class SemanticAnalyzer extends VisitorAdaptor {
 
@@ -34,6 +36,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	 */
 	private static boolean isElemOrVar(Obj obj){
 		return obj.getKind() == Obj.Elem || obj.getKind() == Obj.Var;
+	}
+
+	private static boolean isMethod(Obj obj){
+		return obj.getKind() == Obj.Meth;
 	}
 
 	/**
@@ -380,6 +386,88 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 			!statementPrint.getExpression().struct.equals(Tab.charType) &&
 			!statementPrint.getExpression().struct.equals(boolType))
 			report_error("print funkcija je primenljiva samo na osnovnim tipovima", statementPrint);
+	}
+
+
+	// calling methods
+	@Override
+	public void visit(DesignatorActual designatorActual) {
+		Obj methodObj = designatorActual.getDesignator().obj;
+
+		if(designatorActual.getDesignator() instanceof DesignatorDeclaration){
+			Collection<Obj> methodParams =  methodObj.getLocalSymbols();
+
+
+			if(!isMethod(methodObj))
+			{
+				report_error("Identifikator `" + methodObj.getName() + "` nije funkcija za poziv!", designatorActual);
+			}
+		}
+		// korisnik je pozvao
+		// ili constantu enuma
+		// ili niz
+		// ili konstrantu
+		else{
+			report_error("Identifikator mora biti funckija", designatorActual);
+		}
+	}
+
+	// visits the last actual parameter
+	@Override
+	public void visit(ActualParametersExpressionListMember actualListMember) {
+
+	}
+
+	// visit first expression actual parameter
+	public void visit(ActualParameters actualParameters) {
+		SyntaxNode methodNode = actualParameters.getParent();
+
+		while(!(methodNode instanceof DesignatorActual) && methodNode != null)
+		{
+			methodNode = methodNode.getParent();
+		}
+
+		// we have founded the method
+		if(methodNode!= null) {
+			// compare array and method arguments
+			Obj methodObj = ((DesignatorActual) methodNode).getDesignator().obj;
+			if(methodObj.getKind() != Obj.Meth)
+				report_error("Identifikator koji pozivate nije metoda!", actualParameters);
+
+
+			// collect argument from children nodes
+			List<Struct> methodArguments = new ArrayList<>();
+			methodArguments.add(actualParameters.getExpression().struct);
+			ActualParametersExpressionList argumentsList = actualParameters.getActualParametersExpressionList();
+
+			// not first members
+			List<Struct> members = new ArrayList<>();
+			while (argumentsList instanceof ActualParametersExpressionListMember) {
+				// add the struct of the visited
+				members.add(((ActualParametersExpressionListMember) argumentsList).getExpression().struct);
+				// go down in tree
+				argumentsList = ((ActualParametersExpressionListMember) argumentsList).getActualParametersExpressionList();
+			}
+			// reverse cause in cup there is different order
+			Collections.reverse(members);
+			methodArguments.addAll(members);
+
+			Collection<Obj> methodLocals = methodObj.getLocalSymbols();
+
+			if(methodLocals.size() != methodArguments.size()){
+				report_error("Broj argumenata pri pozivu funckije nije ispravan!", methodNode);
+				return;
+			}
+
+			int argNo = 0;
+			for(Obj local: methodLocals){
+				if(!local.getType().assignableTo(methodArguments.get(argNo))) {
+					report_error("Argument pri pozivu funkcije broj " + (argNo + 1) + " nije dodeljiv ovom tipu!", methodNode);
+					break;
+				}
+				argNo++;
+			}
+		}
 	}
 
 	@Override
