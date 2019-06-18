@@ -42,6 +42,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		return obj.getKind() == Obj.Meth;
 	}
 
+	private static boolean isEnum(Struct struct){ return struct.getKind() == Struct.Enum; }
 	/**
 	 * Returns true if the object is type of integer
 	 *
@@ -155,8 +156,6 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 	@Override
 	public void visit(MethodParamDeclaring methodParams){
-		Scope scope = Tab.currentScope;
-		String name  = methodParams.getPName();
 		if(existsInCurrentScope(methodParams.getPName())){
 			report_error("Identifikator " + methodParams.getPName() + " je vec definisan u metodi!", methodParams);
 		}
@@ -174,20 +173,57 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		}
 	}
 
-
+	// if the return type is founded
+	boolean returnTypeFounded;
 	@Override
 	public void visit(MethodDeclarating methodDeclaration){
+
+		// if the method returning type && there is no return statement
+		if(!currentMethod.getType().equals(Tab.noType) && !returnTypeFounded) {
+			report_error("Metoda mora vratiti vrednost odgovarajuceg tipa!", methodDeclaration);
+		}
+
+
 		if(returnFound){
 			report_error("Main metoda mora biti type void!", methodDeclaration);
 		}
 
+
 		Tab.chainLocalSymbols(currentMethod);
 		Tab.closeScope();
 
+		returnTypeFounded = false;
 		returnFound = false;
 		currentMethod = null;
 	}
 
+	@Override
+	public void visit(StatementReturn returnStatement) {
+		// find parent method declaration
+		SyntaxNode methodDeclaration = returnStatement.getParent();
+		while(!(methodDeclaration instanceof MethodDeclarating)){
+			methodDeclaration = methodDeclaration.getParent();
+		}
+
+		// if something is returning
+		if(returnStatement.getExpressionOptional() instanceof ExpressionOptionalValue)
+		{
+			// check if the returning exception is returning a proper type
+			Expression expression = ((ExpressionOptionalValue) returnStatement.getExpressionOptional()).getExpression();
+
+			if(!expression.struct.assignableTo(currentMethod.getType())){
+				report_error("Metoda vraca vrednost neodgovarajuceg tipa", methodDeclaration);
+			}
+			returnTypeFounded = true;
+		}
+		// there is return; without value
+		else{
+			// current method is not void
+			if(!currentMethod.getType().equals(Tab.noType)){
+				report_error("Kada pozivate return morate vratiti vrednost posto metoda nije `void`", methodDeclaration);
+			}
+		}
+	}
 
 	/**
 	 * Enum declarating
@@ -422,51 +458,98 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	public void visit(ActualParameters actualParameters) {
 		SyntaxNode methodNode = actualParameters.getParent();
 
-		while(!(methodNode instanceof DesignatorActual) && methodNode != null)
+		// designatoractiual and factor designating are calling
+		while(!(methodNode instanceof DesignatorActual) && !(methodNode instanceof FactorDesignating) && methodNode != null)
 		{
 			methodNode = methodNode.getParent();
 		}
 
 		// we have founded the method
 		if(methodNode!= null) {
-			// compare array and method arguments
-			Obj methodObj = ((DesignatorActual) methodNode).getDesignator().obj;
-			if(methodObj.getKind() != Obj.Meth)
-				report_error("Identifikator koji pozivate nije metoda!", actualParameters);
-
-
-			// collect argument from children nodes
+			// node for calling arguments
+			ActualParametersExpressionList argumentsList = null;
+			// list of called arguments
 			List<Struct> methodArguments = new ArrayList<>();
-			methodArguments.add(actualParameters.getExpression().struct);
-			ActualParametersExpressionList argumentsList = actualParameters.getActualParametersExpressionList();
+			// method obj
+			Obj methodObj = null;
 
-			// not first members
-			List<Struct> members = new ArrayList<>();
-			while (argumentsList instanceof ActualParametersExpressionListMember) {
-				// add the struct of the visited
-				members.add(((ActualParametersExpressionListMember) argumentsList).getExpression().struct);
-				// go down in tree
-				argumentsList = ((ActualParametersExpressionListMember) argumentsList).getActualParametersExpressionList();
+			if(methodNode instanceof DesignatorActual) {
+
+				// compare array and method arguments
+				methodObj = ((DesignatorActual) methodNode).getDesignator().obj;
+				if (methodObj.getKind() != Obj.Meth)
+					report_error("Identifikator koji pozivate nije metoda!", actualParameters);
+
+
+				// collect argument from children nodes
+				methodArguments.add(actualParameters.getExpression().struct);
+				argumentsList = actualParameters.getActualParametersExpressionList();
 			}
-			// reverse cause in cup there is different order
-			Collections.reverse(members);
-			methodArguments.addAll(members);
+			// method Node is FactorDesignating calling nested
+			else{
+				FactorDesignating factorDesignating = (FactorDesignating)methodNode;
 
-			Collection<Obj> methodLocals = methodObj.getLocalSymbols();
-
-			if(methodLocals.size() != methodArguments.size()){
-				report_error("Broj argumenata pri pozivu funckije nije ispravan!", methodNode);
-				return;
-			}
-
-			int argNo = 0;
-			for(Obj local: methodLocals){
-				if(!local.getType().assignableTo(methodArguments.get(argNo))) {
-					report_error("Argument pri pozivu funkcije broj " + (argNo + 1) + " nije dodeljiv ovom tipu!", methodNode);
-					break;
+				// check if the designator object is method
+				if(		// there is nested parenthesis
+						factorDesignating.getFactorActualParametersOptional() instanceof FactorActualParametersOptionalValue &&
+						// obj is not method
+						factorDesignating.getDesignator().obj.getKind() != Obj.Meth){
+					report_error("Identifikator koji ugnjezdeno pozivate nije metoda!", actualParameters);
 				}
-				argNo++;
+
+				// if it is called nested
+				if(factorDesignating.getFactorActualParametersOptional() instanceof FactorActualParametersOptionalValue){
+					FactorActualParametersOptionalValue factorActualParametersOptionalValue = (FactorActualParametersOptionalValue) factorDesignating.getFactorActualParametersOptional();
+					methodObj = factorDesignating.getDesignator().obj;
+
+					ActualParametersOptionalValue actualParametersOptionalValue = (ActualParametersOptionalValue)factorActualParametersOptionalValue.getActualParametersOptional();
+					// set first argument
+					methodArguments.add(actualParametersOptionalValue.getActualParameters().getExpression().struct);
+					// set arguments list
+					argumentsList = actualParametersOptionalValue.getActualParameters().getActualParametersExpressionList();
+
+				}
+				// the designating obj is not method
+				else {
+
+				}
 			}
+
+			// the is no arguments list there is no arguments
+			if(argumentsList != null && methodObj != null) {
+				// not first members
+				List<Struct> members = new ArrayList<>();
+				while (argumentsList instanceof ActualParametersExpressionListMember) {
+					// add the struct of the visited
+					members.add(((ActualParametersExpressionListMember) argumentsList).getExpression().struct);
+					// go down in tree
+					argumentsList = ((ActualParametersExpressionListMember) argumentsList).getActualParametersExpressionList();
+				}
+				// reverse cause in cup there is different order
+				Collections.reverse(members);
+				methodArguments.addAll(members);
+
+				Collection<Obj> methodLocals = methodObj.getLocalSymbols();
+
+				// check for number of arguments
+				if (methodLocals.size() != methodArguments.size()) {
+					report_error("Broj argumenata pri pozivu funckije nije ispravan!", methodNode);
+					return;
+				}
+
+
+				// each argument check
+				int argNo = 0;
+				for(Obj local: methodLocals){
+					if(!local.getType().assignableTo(methodArguments.get(argNo))) {
+						report_error("Argument pri pozivu funkcije broj " + (argNo + 1) + " nije dodeljiv ovom tipu!", methodNode);
+						break;
+					}
+					argNo++;
+				}
+			}
+
+
 		}
 	}
 
@@ -540,6 +623,13 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 	@Override
 	public void visit(FactorDesignating factorDesignating) {
+		// ugnjezdena metoda bez zagrada
+		if(isMethod(factorDesignating.getDesignator().obj) // metoda je
+				&&
+			factorDesignating.getFactorActualParametersOptional() instanceof FactorActualParemeterOptionalNoValue
+		)
+			report_error("Identfikator je metoda i mora biti pozvana", factorDesignating);
+
 		factorDesignating.struct = factorDesignating.getDesignator().obj.getType();
 	}
 
@@ -636,9 +726,9 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 		if(!expressionType.assignableTo(designatorObject.getType()) &&
 			!(
-					(expressionType.equals(Tab.intType) && designatorObject.getType().getKind() == Struct.Enum)	// cant assign enum to int
+					(expressionType.equals(Tab.intType) && designatorObject.getType().getKind() == Struct.Enum)	// can assign enum to int
 					||
-					(expressionType.getKind() == Struct.Enum && designatorObject.getType() == Tab.intType) // cant assign int to enum
+					(expressionType.getKind() == Struct.Enum && designatorObject.getType() == Tab.intType) // can assign int to enum
 			)
 		){
 			report_error("Tipovi nisu kompatibilni za dodelu vrednosti!", designatorAssignExpression);
@@ -708,9 +798,5 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		report_info("Pristupamo clanu enuma `" + designator.getDName() + "." + designator.getRName() + "` ", designator);
 	}
 
-//	@Override
-//	public void visit(ExpressionOptionalValue expressionOptionalValue) {
-//		report_error("Metoda ne vraca vrednost!" , expressionOptionalValue);
-//	}
 }
 
