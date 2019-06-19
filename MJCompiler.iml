@@ -52,15 +52,6 @@
     </orderEntry>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
-      <library name="mj-runtime.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/mj-runtime.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/symboltable-1-1.jar!/" />
@@ -68,6 +59,17 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$MODULE_DIR$/lib/symboltable-1-1.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/mj-runtime-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/mj-runtime-1.1.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

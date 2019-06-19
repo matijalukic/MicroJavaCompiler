@@ -1,171 +1,171 @@
-INFO  21:35:51,930 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
-INFO  21:35:51,946 - #2 program
-INFO  21:35:51,946 - #45 test301
-INFO  21:35:51,946 - #10 enum
-INFO  21:35:51,947 - #45 Broj
-INFO  21:35:51,947 - #40 {
-INFO  21:35:51,947 - #45 NULA
-INFO  21:35:51,947 - #37 ,
-INFO  21:35:51,947 - #45 JEDAN
-INFO  21:35:51,947 - #37 ,
-INFO  21:35:51,948 - #45 PET
-INFO  21:35:51,948 - #29 =
-INFO  21:35:51,948 - #44 5
-INFO  21:35:51,948 - #37 ,
-INFO  21:35:51,948 - #45 DESET
-INFO  21:35:51,948 - #29 =
-INFO  21:35:51,948 - #44 10
-INFO  21:35:51,948 - #41 }
-INFO  21:35:51,948 - #7 const
-INFO  21:35:51,949 - #45 int
-INFO  21:35:51,949 - #45 jedan
-INFO  21:35:51,949 - #29 =
-INFO  21:35:51,949 - #44 1
-INFO  21:35:51,949 - #36 ;
-INFO  21:35:51,949 - #7 const
-INFO  21:35:51,950 - #45 int
-INFO  21:35:51,950 - #45 pet
-INFO  21:35:51,950 - #29 =
-INFO  21:35:51,950 - #44 5
-INFO  21:35:51,950 - #36 ;
-INFO  21:35:51,950 - #45 int
-INFO  21:35:51,950 - #45 niz
-INFO  21:35:51,950 - #42 [
-INFO  21:35:51,950 - #43 ]
-INFO  21:35:51,950 - #36 ;
-INFO  21:35:51,950 - #45 char
-INFO  21:35:51,951 - #45 nizch
-INFO  21:35:51,951 - #42 [
-INFO  21:35:51,951 - #43 ]
-INFO  21:35:51,951 - #36 ;
-INFO  21:35:51,951 - #40 {
-INFO  21:35:51,951 - #45 int
-INFO  21:35:51,952 - #45 inc
-INFO  21:35:51,952 - #38 (
-INFO  21:35:51,952 - #45 int
-INFO  21:35:51,952 - #45 broj
-INFO  21:35:51,952 - #39 )
-INFO  21:35:51,952 - #40 {
-INFO  21:35:51,953 - #5 return
-INFO  21:35:51,953 - #45 broj
-INFO  21:35:51,953 - #22 +
-INFO  21:35:51,953 - #45 Broj
-INFO  21:35:51,954 - #19 .
-INFO  21:35:51,954 - #45 JEDAN
-INFO  21:35:51,954 - #36 ;
-INFO  21:35:51,954 - #41 }
-INFO  21:35:51,954 - #6 void
-INFO  21:35:51,957 - #45 mul
-INFO  21:35:51,957 - #38 (
-INFO  21:35:51,957 - #45 int
-INFO  21:35:51,957 - #45 arr
-INFO  21:35:51,957 - #42 [
-INFO  21:35:51,957 - #43 ]
-INFO  21:35:51,957 - #37 ,
-INFO  21:35:51,958 - #45 int
-INFO  21:35:51,958 - #45 index
-INFO  21:35:51,958 - #37 ,
-INFO  21:35:51,958 - #45 int
-INFO  21:35:51,958 - #45 b
-INFO  21:35:51,958 - #39 )
-INFO  21:35:51,958 - #40 {
-INFO  21:35:51,958 - #45 arr
-INFO  21:35:51,958 - #42 [
-INFO  21:35:51,958 - #45 index
-INFO  21:35:51,958 - #43 ]
-INFO  21:35:51,959 - #29 =
-INFO  21:35:51,959 - #45 arr
-INFO  21:35:51,959 - #42 [
-INFO  21:35:51,959 - #45 index
-INFO  21:35:51,959 - #43 ]
-INFO  21:35:51,959 - #26 *
-INFO  21:35:51,959 - #45 b
-INFO  21:35:51,959 - #36 ;
-INFO  21:35:51,959 - #41 }
-INFO  21:35:51,959 - #6 void
-INFO  21:35:51,959 - #45 main
-INFO  21:35:51,959 - #38 (
-INFO  21:35:51,960 - #39 )
-INFO  21:35:51,960 - #45 int
-INFO  21:35:51,960 - #45 bodovi
-INFO  21:35:51,960 - #36 ;
-INFO  21:35:51,960 - #45 Broj
-INFO  21:35:51,960 - #45 nula
-INFO  21:35:51,960 - #37 ,
-INFO  21:35:51,960 - #45 jedan
-INFO  21:35:51,960 - #36 ;
-INFO  21:35:51,960 - #40 {
-INFO  21:35:51,960 - #45 bodovi
-INFO  21:35:51,960 - #29 =
-INFO  21:35:51,960 - #44 0
-INFO  21:35:51,960 - #36 ;
-INFO  21:35:51,960 - #45 bodovi
-INFO  21:35:51,960 - #29 =
-INFO  21:35:51,961 - #45 bodovi
-INFO  21:35:51,961 - #22 +
-INFO  21:35:51,961 - #38 (
-INFO  21:35:51,961 - #38 (
-INFO  21:35:51,961 - #45 pet
-INFO  21:35:51,961 - #26 *
-INFO  21:35:51,961 - #45 jedan
-INFO  21:35:51,961 - #24 -
-INFO  21:35:51,961 - #44 1
-INFO  21:35:51,961 - #39 )
-INFO  21:35:51,961 - #26 *
-INFO  21:35:51,961 - #45 inc
-INFO  21:35:51,961 - #38 (
-INFO  21:35:51,961 - #45 Broj
-INFO  21:35:51,961 - #19 .
-INFO  21:35:51,961 - #45 JEDAN
-INFO  21:35:51,961 - #39 )
-INFO  21:35:51,962 - #24 -
-INFO  21:35:51,962 - #38 (
-INFO  21:35:51,962 - #44 3
-INFO  21:35:51,962 - #28 %
-INFO  21:35:51,962 - #44 2
-INFO  21:35:51,962 - #22 +
-INFO  21:35:51,962 - #44 3
-INFO  21:35:51,962 - #26 *
-INFO  21:35:51,962 - #44 2
-INFO  21:35:51,962 - #24 -
-INFO  21:35:51,962 - #44 3
-INFO  21:35:51,962 - #39 )
-INFO  21:35:51,963 - #24 -
-INFO  21:35:51,963 - #45 inc
-INFO  21:35:51,963 - #38 (
-INFO  21:35:51,963 - #45 Broj
-INFO  21:35:51,963 - #19 .
-INFO  21:35:51,963 - #45 NULA
-INFO  21:35:51,963 - #39 )
-INFO  21:35:51,963 - #26 *
-INFO  21:35:51,963 - #44 0
-INFO  21:35:51,963 - #39 )
-INFO  21:35:51,963 - #36 ;
-INFO  21:35:51,963 - #3 print
-INFO  21:35:51,963 - #38 (
-INFO  21:35:51,963 - #45 bodovi
-INFO  21:35:51,963 - #39 )
-INFO  21:35:51,963 - #36 ;
-INFO  21:35:51,963 - #4 read
-INFO  21:35:51,963 - #38 (
-INFO  21:35:51,963 - #45 bodovi
-INFO  21:35:51,963 - #39 )
-INFO  21:35:51,964 - #36 ;
-INFO  21:35:51,964 - #45 bodovi
-INFO  21:35:51,964 - #29 =
-INFO  21:35:51,964 - #45 inc
-INFO  21:35:51,964 - #38 (
-INFO  21:35:51,964 - #45 bodovi
-INFO  21:35:51,964 - #39 )
-INFO  21:35:51,964 - #36 ;
-INFO  21:35:51,964 - #3 print
-INFO  21:35:51,964 - #38 (
-INFO  21:35:51,964 - #45 bodovi
-INFO  21:35:51,964 - #39 )
-INFO  21:35:51,964 - #36 ;
-INFO  21:35:51,964 - #41 }
-INFO  21:35:51,964 - #41 }
-INFO  21:35:51,966 - Program(
+INFO  21:33:39,819 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  21:33:39,836 - #2 program
+INFO  21:33:39,836 - #45 test301
+INFO  21:33:39,839 - #10 enum
+INFO  21:33:39,839 - #45 Broj
+INFO  21:33:39,839 - #40 {
+INFO  21:33:39,840 - #45 NULA
+INFO  21:33:39,840 - #37 ,
+INFO  21:33:39,840 - #45 JEDAN
+INFO  21:33:39,840 - #37 ,
+INFO  21:33:39,840 - #45 PET
+INFO  21:33:39,840 - #29 =
+INFO  21:33:39,840 - #44 5
+INFO  21:33:39,840 - #37 ,
+INFO  21:33:39,840 - #45 DESET
+INFO  21:33:39,841 - #29 =
+INFO  21:33:39,841 - #44 10
+INFO  21:33:39,841 - #41 }
+INFO  21:33:39,841 - #7 const
+INFO  21:33:39,841 - #45 int
+INFO  21:33:39,841 - #45 jedan
+INFO  21:33:39,841 - #29 =
+INFO  21:33:39,841 - #44 1
+INFO  21:33:39,841 - #36 ;
+INFO  21:33:39,841 - #7 const
+INFO  21:33:39,842 - #45 int
+INFO  21:33:39,842 - #45 pet
+INFO  21:33:39,842 - #29 =
+INFO  21:33:39,842 - #44 5
+INFO  21:33:39,842 - #36 ;
+INFO  21:33:39,842 - #45 int
+INFO  21:33:39,842 - #45 niz
+INFO  21:33:39,842 - #42 [
+INFO  21:33:39,842 - #43 ]
+INFO  21:33:39,842 - #36 ;
+INFO  21:33:39,842 - #45 char
+INFO  21:33:39,842 - #45 nizch
+INFO  21:33:39,842 - #42 [
+INFO  21:33:39,842 - #43 ]
+INFO  21:33:39,842 - #36 ;
+INFO  21:33:39,842 - #40 {
+INFO  21:33:39,842 - #45 int
+INFO  21:33:39,843 - #45 inc
+INFO  21:33:39,843 - #38 (
+INFO  21:33:39,843 - #45 int
+INFO  21:33:39,843 - #45 broj
+INFO  21:33:39,843 - #39 )
+INFO  21:33:39,843 - #40 {
+INFO  21:33:39,844 - #5 return
+INFO  21:33:39,844 - #45 broj
+INFO  21:33:39,844 - #22 +
+INFO  21:33:39,845 - #45 Broj
+INFO  21:33:39,845 - #19 .
+INFO  21:33:39,845 - #45 JEDAN
+INFO  21:33:39,845 - #36 ;
+INFO  21:33:39,845 - #41 }
+INFO  21:33:39,845 - #6 void
+INFO  21:33:39,847 - #45 mul
+INFO  21:33:39,848 - #38 (
+INFO  21:33:39,848 - #45 int
+INFO  21:33:39,848 - #45 arr
+INFO  21:33:39,848 - #42 [
+INFO  21:33:39,848 - #43 ]
+INFO  21:33:39,848 - #37 ,
+INFO  21:33:39,848 - #45 int
+INFO  21:33:39,848 - #45 index
+INFO  21:33:39,848 - #37 ,
+INFO  21:33:39,848 - #45 int
+INFO  21:33:39,848 - #45 b
+INFO  21:33:39,848 - #39 )
+INFO  21:33:39,848 - #40 {
+INFO  21:33:39,848 - #45 arr
+INFO  21:33:39,848 - #42 [
+INFO  21:33:39,849 - #45 index
+INFO  21:33:39,849 - #43 ]
+INFO  21:33:39,849 - #29 =
+INFO  21:33:39,849 - #45 arr
+INFO  21:33:39,849 - #42 [
+INFO  21:33:39,849 - #45 index
+INFO  21:33:39,849 - #43 ]
+INFO  21:33:39,849 - #26 *
+INFO  21:33:39,849 - #45 b
+INFO  21:33:39,849 - #36 ;
+INFO  21:33:39,849 - #41 }
+INFO  21:33:39,850 - #6 void
+INFO  21:33:39,850 - #45 main
+INFO  21:33:39,850 - #38 (
+INFO  21:33:39,850 - #39 )
+INFO  21:33:39,850 - #45 int
+INFO  21:33:39,850 - #45 bodovi
+INFO  21:33:39,850 - #36 ;
+INFO  21:33:39,850 - #45 Broj
+INFO  21:33:39,850 - #45 nula
+INFO  21:33:39,850 - #37 ,
+INFO  21:33:39,850 - #45 jedan
+INFO  21:33:39,850 - #36 ;
+INFO  21:33:39,850 - #40 {
+INFO  21:33:39,850 - #45 bodovi
+INFO  21:33:39,850 - #29 =
+INFO  21:33:39,850 - #44 0
+INFO  21:33:39,850 - #36 ;
+INFO  21:33:39,850 - #45 bodovi
+INFO  21:33:39,851 - #29 =
+INFO  21:33:39,851 - #45 bodovi
+INFO  21:33:39,851 - #22 +
+INFO  21:33:39,851 - #38 (
+INFO  21:33:39,851 - #38 (
+INFO  21:33:39,851 - #45 pet
+INFO  21:33:39,851 - #26 *
+INFO  21:33:39,851 - #45 jedan
+INFO  21:33:39,851 - #24 -
+INFO  21:33:39,851 - #44 1
+INFO  21:33:39,851 - #39 )
+INFO  21:33:39,851 - #26 *
+INFO  21:33:39,851 - #45 inc
+INFO  21:33:39,851 - #38 (
+INFO  21:33:39,851 - #45 Broj
+INFO  21:33:39,851 - #19 .
+INFO  21:33:39,851 - #45 JEDAN
+INFO  21:33:39,851 - #39 )
+INFO  21:33:39,852 - #24 -
+INFO  21:33:39,852 - #38 (
+INFO  21:33:39,852 - #44 3
+INFO  21:33:39,852 - #28 %
+INFO  21:33:39,852 - #44 2
+INFO  21:33:39,852 - #22 +
+INFO  21:33:39,852 - #44 3
+INFO  21:33:39,852 - #26 *
+INFO  21:33:39,852 - #44 2
+INFO  21:33:39,852 - #24 -
+INFO  21:33:39,852 - #44 3
+INFO  21:33:39,852 - #39 )
+INFO  21:33:39,852 - #24 -
+INFO  21:33:39,852 - #45 inc
+INFO  21:33:39,852 - #38 (
+INFO  21:33:39,852 - #45 Broj
+INFO  21:33:39,852 - #19 .
+INFO  21:33:39,853 - #45 NULA
+INFO  21:33:39,853 - #39 )
+INFO  21:33:39,853 - #26 *
+INFO  21:33:39,853 - #44 0
+INFO  21:33:39,853 - #39 )
+INFO  21:33:39,853 - #36 ;
+INFO  21:33:39,853 - #3 print
+INFO  21:33:39,853 - #38 (
+INFO  21:33:39,853 - #45 bodovi
+INFO  21:33:39,853 - #39 )
+INFO  21:33:39,853 - #36 ;
+INFO  21:33:39,853 - #4 read
+INFO  21:33:39,853 - #38 (
+INFO  21:33:39,853 - #45 bodovi
+INFO  21:33:39,853 - #39 )
+INFO  21:33:39,853 - #36 ;
+INFO  21:33:39,853 - #45 bodovi
+INFO  21:33:39,853 - #29 =
+INFO  21:33:39,853 - #45 inc
+INFO  21:33:39,853 - #38 (
+INFO  21:33:39,853 - #45 bodovi
+INFO  21:33:39,853 - #39 )
+INFO  21:33:39,853 - #36 ;
+INFO  21:33:39,854 - #3 print
+INFO  21:33:39,854 - #38 (
+INFO  21:33:39,854 - #45 bodovi
+INFO  21:33:39,854 - #39 )
+INFO  21:33:39,854 - #36 ;
+INFO  21:33:39,854 - #41 }
+INFO  21:33:39,854 - #41 }
+INFO  21:33:39,856 - Program(
   ProgramName(
    test301
   ) [ProgramName]
@@ -809,27 +809,27 @@ INFO  21:35:51,966 - Program(
     ) [MethodDeclarating]
   ) [MethodDeclaratingList]
 ) [Program]
-INFO  21:35:51,972 - Koristi se lokalna promenljiva Var broj: int, 0, 1  na liniji 16
-INFO  21:35:51,972 - Pristupamo clanu enuma `Broj.JEDAN`  na liniji 16
-INFO  21:35:51,972 - Koristi se lokalna promenljiva Var arr: Arr of int, 0, 1  na liniji 21
-INFO  21:35:51,972 - Koristi se lokalna promenljiva Var index: int, 1, 1  na liniji 21
-INFO  21:35:51,972 - Prostupamo clanu niza arr na liniji 21
-INFO  21:35:51,972 - Koristi se lokalna promenljiva Var arr: Arr of int, 0, 1  na liniji 21
-INFO  21:35:51,972 - Koristi se lokalna promenljiva Var index: int, 1, 1  na liniji 21
-INFO  21:35:51,972 - Prostupamo clanu niza arr na liniji 21
-INFO  21:35:51,972 - Koristi se lokalna promenljiva Var b: int, 2, 1  na liniji 21
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 28
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 30
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 30
-INFO  21:35:51,973 - Koristi se konstanta Con pet: int, 5, 0  na liniji 30
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var jedan: , 2, 1  na liniji 30
-INFO  21:35:51,973 - Pristupamo clanu enuma `Broj.JEDAN`  na liniji 30
-INFO  21:35:51,973 - Pristupamo clanu enuma `Broj.NULA`  na liniji 30
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 31
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 34
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 35
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 35
-INFO  21:35:51,973 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 36
-INFO  21:35:51,973 - Print calls = 0
-INFO  21:35:51,973 - Generating bytecode file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.obj
-INFO  21:35:51,975 - Parsiranje uspesno zavrseno!
+INFO  21:33:39,861 - Koristi se lokalna promenljiva Var broj: int, 0, 1  na liniji 16
+INFO  21:33:39,861 - Pristupamo clanu enuma `Broj.JEDAN`  na liniji 16
+INFO  21:33:39,861 - Koristi se lokalna promenljiva Var arr: Arr of int, 0, 1  na liniji 21
+INFO  21:33:39,861 - Koristi se lokalna promenljiva Var index: int, 1, 1  na liniji 21
+INFO  21:33:39,861 - Prostupamo clanu niza arr na liniji 21
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var arr: Arr of int, 0, 1  na liniji 21
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var index: int, 1, 1  na liniji 21
+INFO  21:33:39,862 - Prostupamo clanu niza arr na liniji 21
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var b: int, 2, 1  na liniji 21
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 28
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 30
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 30
+INFO  21:33:39,862 - Koristi se konstanta Con pet: int, 5, 0  na liniji 30
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var jedan: , 2, 1  na liniji 30
+INFO  21:33:39,862 - Pristupamo clanu enuma `Broj.JEDAN`  na liniji 30
+INFO  21:33:39,862 - Pristupamo clanu enuma `Broj.NULA`  na liniji 30
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 31
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 34
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 35
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 35
+INFO  21:33:39,862 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 36
+INFO  21:33:39,862 - Print calls = 0
+INFO  21:33:39,863 - Generating bytecode file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.obj
+INFO  21:33:39,864 - Parsiranje uspesno zavrseno!

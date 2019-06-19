@@ -1,0 +1,46 @@
+INFO  18:23:06,169 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  18:23:06,189 - #2 program
+INFO  18:23:06,189 - #45 test301
+INFO  18:23:06,189 - #10 enum
+INFO  18:23:06,190 - #45 Broj
+INFO  18:23:06,190 - #40 {
+INFO  18:23:06,190 - #45 NULA
+INFO  18:23:06,190 - #37 ,
+INFO  18:23:06,190 - #45 JEDAN
+INFO  18:23:06,190 - #37 ,
+INFO  18:23:06,190 - #45 PET
+INFO  18:23:06,190 - #29 =
+INFO  18:23:06,190 - #44 5
+INFO  18:23:06,191 - #37 ,
+INFO  18:23:06,191 - #45 DESET
+INFO  18:23:06,191 - #29 =
+INFO  18:23:06,191 - #44 10
+INFO  18:23:06,191 - #41 }
+INFO  18:23:06,191 - #7 const
+INFO  18:23:06,191 - #45 int
+INFO  18:23:06,191 - #45 jedan
+INFO  18:23:06,191 - #29 =
+INFO  18:23:06,191 - #44 1
+INFO  18:23:06,191 - #36 ;
+INFO  18:23:06,192 - #7 const
+INFO  18:23:06,192 - #45 int
+INFO  18:23:06,192 - #45 pet
+INFO  18:23:06,192 - #29 =
+INFO  18:23:06,192 - #44 5
+INFO  18:23:06,192 - #36 ;
+INFO  18:23:06,192 - #45 int
+INFO  18:23:06,192 - #45 niz
+INFO  18:23:06,192 - #42 [
+INFO  18:23:06,192 - #43 ]
+INFO  18:23:06,192 - #36 ;
+INFO  18:23:06,192 - #45 char
+INFO  18:23:06,193 - #45 nizch
+INFO  18:23:06,193 - #42 [
+INFO  18:23:06,193 - #43 ]
+INFO  18:23:06,193 - #36 ;
+INFO  18:23:06,193 - #40 {
+INFO  18:23:06,193 - #45 int
+INFO  18:23:06,193 - #42 [
+ERROR 18:23:06,193 - 
+Sintaksna greska na liniji 14
+ERROR 18:23:06,193 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

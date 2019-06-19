@@ -1,0 +1,1027 @@
+INFO  23:20:19,013 - Compiling source file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.mj
+INFO  23:20:19,032 - #2 program
+INFO  23:20:19,032 - #45 test301
+INFO  23:20:19,032 - #10 enum
+INFO  23:20:19,033 - #45 Broj
+INFO  23:20:19,033 - #40 {
+INFO  23:20:19,033 - #45 NULA
+INFO  23:20:19,033 - #37 ,
+INFO  23:20:19,034 - #45 JEDAN
+INFO  23:20:19,034 - #37 ,
+INFO  23:20:19,034 - #45 PET
+INFO  23:20:19,034 - #29 =
+INFO  23:20:19,034 - #44 5
+INFO  23:20:19,034 - #37 ,
+INFO  23:20:19,034 - #45 DESET
+INFO  23:20:19,034 - #29 =
+INFO  23:20:19,034 - #44 10
+INFO  23:20:19,034 - #41 }
+INFO  23:20:19,035 - #7 const
+INFO  23:20:19,035 - #45 int
+INFO  23:20:19,035 - #45 jedan
+INFO  23:20:19,035 - #29 =
+INFO  23:20:19,035 - #44 1
+INFO  23:20:19,035 - #36 ;
+INFO  23:20:19,035 - #7 const
+INFO  23:20:19,036 - #45 int
+INFO  23:20:19,036 - #45 pet
+INFO  23:20:19,036 - #29 =
+INFO  23:20:19,036 - #44 5
+INFO  23:20:19,036 - #36 ;
+INFO  23:20:19,036 - #45 int
+INFO  23:20:19,036 - #45 niz
+INFO  23:20:19,036 - #42 [
+INFO  23:20:19,036 - #43 ]
+INFO  23:20:19,036 - #36 ;
+INFO  23:20:19,036 - #45 char
+INFO  23:20:19,036 - #45 nizch
+INFO  23:20:19,036 - #42 [
+INFO  23:20:19,037 - #43 ]
+INFO  23:20:19,037 - #36 ;
+INFO  23:20:19,037 - #40 {
+INFO  23:20:19,037 - #45 int
+INFO  23:20:19,037 - #45 inc
+INFO  23:20:19,037 - #38 (
+INFO  23:20:19,037 - #45 int
+INFO  23:20:19,037 - #45 broj
+INFO  23:20:19,037 - #39 )
+INFO  23:20:19,038 - #40 {
+INFO  23:20:19,038 - #5 return
+INFO  23:20:19,038 - #45 broj
+INFO  23:20:19,039 - #22 +
+INFO  23:20:19,039 - #45 Broj
+INFO  23:20:19,040 - #19 .
+INFO  23:20:19,040 - #45 JEDAN
+INFO  23:20:19,040 - #36 ;
+INFO  23:20:19,040 - #41 }
+INFO  23:20:19,040 - #6 void
+INFO  23:20:19,041 - #45 mul
+INFO  23:20:19,041 - #38 (
+INFO  23:20:19,041 - #45 int
+INFO  23:20:19,041 - #45 arr
+INFO  23:20:19,041 - #42 [
+INFO  23:20:19,041 - #43 ]
+INFO  23:20:19,041 - #37 ,
+INFO  23:20:19,041 - #45 int
+INFO  23:20:19,041 - #45 index
+INFO  23:20:19,041 - #37 ,
+INFO  23:20:19,041 - #45 char
+INFO  23:20:19,041 - #45 b
+INFO  23:20:19,041 - #39 )
+INFO  23:20:19,041 - #40 {
+INFO  23:20:19,042 - #41 }
+INFO  23:20:19,042 - #6 void
+INFO  23:20:19,042 - #45 main
+INFO  23:20:19,042 - #38 (
+INFO  23:20:19,042 - #39 )
+INFO  23:20:19,042 - #45 int
+INFO  23:20:19,042 - #45 bodovi
+INFO  23:20:19,042 - #36 ;
+INFO  23:20:19,042 - #45 Broj
+INFO  23:20:19,042 - #45 nula
+INFO  23:20:19,042 - #37 ,
+INFO  23:20:19,042 - #45 jedan
+INFO  23:20:19,042 - #36 ;
+INFO  23:20:19,042 - #40 {
+INFO  23:20:19,042 - #45 mul
+INFO  23:20:19,042 - #38 (
+INFO  23:20:19,043 - #45 niz
+INFO  23:20:19,043 - #37 ,
+INFO  23:20:19,043 - #44 0
+INFO  23:20:19,043 - #37 ,
+INFO  23:20:19,043 - #46 a
+INFO  23:20:19,043 - #39 )
+INFO  23:20:19,044 - #36 ;
+INFO  23:20:19,044 - #45 bodovi
+INFO  23:20:19,044 - #29 =
+INFO  23:20:19,044 - #45 niz
+INFO  23:20:19,044 - #42 [
+INFO  23:20:19,044 - #44 1
+INFO  23:20:19,044 - #43 ]
+INFO  23:20:19,044 - #27 /
+INFO  23:20:19,045 - #45 niz
+INFO  23:20:19,045 - #42 [
+INFO  23:20:19,045 - #44 0
+INFO  23:20:19,045 - #43 ]
+INFO  23:20:19,045 - #36 ;
+INFO  23:20:19,045 - #3 print
+INFO  23:20:19,045 - #38 (
+INFO  23:20:19,045 - #45 bodovi
+INFO  23:20:19,045 - #39 )
+INFO  23:20:19,046 - #36 ;
+INFO  23:20:19,046 - #3 print
+INFO  23:20:19,046 - #38 (
+INFO  23:20:19,046 - #45 niz
+INFO  23:20:19,046 - #42 [
+INFO  23:20:19,046 - #45 Broj
+INFO  23:20:19,046 - #19 .
+INFO  23:20:19,046 - #45 JEDAN
+INFO  23:20:19,046 - #43 ]
+INFO  23:20:19,046 - #39 )
+INFO  23:20:19,046 - #36 ;
+INFO  23:20:19,046 - #45 nizch
+INFO  23:20:19,046 - #29 =
+INFO  23:20:19,048 - #17 new
+INFO  23:20:19,048 - #45 char
+INFO  23:20:19,048 - #42 [
+INFO  23:20:19,048 - #44 3
+INFO  23:20:19,048 - #43 ]
+INFO  23:20:19,048 - #36 ;
+INFO  23:20:19,049 - #45 nizch
+INFO  23:20:19,049 - #42 [
+INFO  23:20:19,049 - #44 0
+INFO  23:20:19,049 - #43 ]
+INFO  23:20:19,049 - #29 =
+INFO  23:20:19,049 - #46 a
+INFO  23:20:19,049 - #36 ;
+INFO  23:20:19,049 - #45 nizch
+INFO  23:20:19,049 - #42 [
+INFO  23:20:19,049 - #45 jedan
+INFO  23:20:19,049 - #43 ]
+INFO  23:20:19,049 - #29 =
+INFO  23:20:19,049 - #46 b
+INFO  23:20:19,049 - #36 ;
+INFO  23:20:19,049 - #45 nizch
+INFO  23:20:19,049 - #42 [
+INFO  23:20:19,049 - #45 pet
+INFO  23:20:19,049 - #24 -
+INFO  23:20:19,049 - #44 3
+INFO  23:20:19,050 - #43 ]
+INFO  23:20:19,050 - #29 =
+INFO  23:20:19,050 - #46 c
+INFO  23:20:19,050 - #36 ;
+INFO  23:20:19,050 - #3 print
+INFO  23:20:19,050 - #38 (
+INFO  23:20:19,050 - #45 nizch
+INFO  23:20:19,050 - #42 [
+INFO  23:20:19,050 - #45 inc
+INFO  23:20:19,050 - #38 (
+INFO  23:20:19,050 - #44 0
+INFO  23:20:19,050 - #39 )
+INFO  23:20:19,050 - #43 ]
+INFO  23:20:19,050 - #39 )
+INFO  23:20:19,050 - #36 ;
+INFO  23:20:19,050 - #3 print
+INFO  23:20:19,050 - #38 (
+INFO  23:20:19,050 - #45 nizch
+INFO  23:20:19,050 - #42 [
+INFO  23:20:19,050 - #45 jedan
+INFO  23:20:19,050 - #26 *
+INFO  23:20:19,050 - #44 2
+INFO  23:20:19,051 - #43 ]
+INFO  23:20:19,051 - #39 )
+INFO  23:20:19,051 - #36 ;
+INFO  23:20:19,051 - #3 print
+INFO  23:20:19,051 - #38 (
+INFO  23:20:19,051 - #45 bodovi
+INFO  23:20:19,051 - #39 )
+INFO  23:20:19,051 - #36 ;
+INFO  23:20:19,051 - #4 read
+INFO  23:20:19,051 - #38 (
+INFO  23:20:19,051 - #45 bodovi
+INFO  23:20:19,051 - #39 )
+INFO  23:20:19,051 - #36 ;
+INFO  23:20:19,051 - #45 bodovi
+INFO  23:20:19,051 - #29 =
+INFO  23:20:19,051 - #45 inc
+INFO  23:20:19,051 - #38 (
+INFO  23:20:19,051 - #45 bodovi
+INFO  23:20:19,051 - #39 )
+INFO  23:20:19,051 - #36 ;
+INFO  23:20:19,051 - #3 print
+INFO  23:20:19,051 - #38 (
+INFO  23:20:19,051 - #45 bodovi
+INFO  23:20:19,051 - #39 )
+INFO  23:20:19,051 - #36 ;
+INFO  23:20:19,051 - #41 }
+INFO  23:20:19,051 - #41 }
+INFO  23:20:19,055 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ProgramVarDeclarating(
+    ProgramVarDeclarating(
+      ProgramConstVarDeclarating(
+        ProgramConstVarDeclarating(
+          ProgramEnumDeclarating(
+            NoProgramVarDeclarating(
+            ) [NoProgramVarDeclarating]
+            EnumDeclarating(
+              EnumName(
+               Broj
+              ) [EnumName]
+              EnumDeclaringNoValue(
+               NULA
+              ) [EnumDeclaringNoValue]
+              EnumDeclaratingListMember(
+                EnumDeclaratingListMember(
+                  EnumDeclaratingListMember(
+                    NoEnumDeclaringList(
+                    ) [NoEnumDeclaringList]
+                    EnumDeclaringNoValue(
+                     JEDAN
+                    ) [EnumDeclaringNoValue]
+                  ) [EnumDeclaratingListMember]
+                  EnumDeclaringValue(
+                   PET
+                    AssignOperation(
+                    ) [AssignOperation]
+                   5
+                  ) [EnumDeclaringValue]
+                ) [EnumDeclaratingListMember]
+                EnumDeclaringValue(
+                 DESET
+                  AssignOperation(
+                  ) [AssignOperation]
+                 10
+                ) [EnumDeclaringValue]
+              ) [EnumDeclaratingListMember]
+            ) [EnumDeclarating]
+          ) [ProgramEnumDeclarating]
+          ConstVarDeclarating(
+            NumConst(
+              Type(
+               int
+              ) [Type]
+             jedan
+              AssignOperation(
+              ) [AssignOperation]
+             1
+            ) [NumConst]
+            NoConstDeclaration(
+            ) [NoConstDeclaration]
+          ) [ConstVarDeclarating]
+        ) [ProgramConstVarDeclarating]
+        ConstVarDeclarating(
+          NumConst(
+            Type(
+             int
+            ) [Type]
+           pet
+            AssignOperation(
+            ) [AssignOperation]
+           5
+          ) [NumConst]
+          NoConstDeclaration(
+          ) [NoConstDeclaration]
+        ) [ConstVarDeclarating]
+      ) [ProgramConstVarDeclarating]
+      VarValidDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarListSingle(
+          VarArray(
+           niz
+          ) [VarArray]
+        ) [VarListSingle]
+      ) [VarValidDeclaration]
+    ) [ProgramVarDeclarating]
+    VarValidDeclaration(
+      Type(
+       char
+      ) [Type]
+      VarListSingle(
+        VarArray(
+         nizch
+        ) [VarArray]
+      ) [VarListSingle]
+    ) [VarValidDeclaration]
+  ) [ProgramVarDeclarating]
+  MethodDeclaratingList(
+    MethodDeclaratingList(
+      MethodDeclaratingList(
+        MethodDeclaratingEpsilon(
+        ) [MethodDeclaratingEpsilon]
+        MethodDeclarating(
+          MethodTypeDeclarating(
+            Type(
+             int
+            ) [Type]
+           inc
+          ) [MethodTypeDeclarating]
+          MethodOptionalParamsDeclaring(
+            MethodParametersDeclaring(
+              MethodParamDeclaring(
+                Type(
+                 int
+                ) [Type]
+               broj
+                ArrayDeclaringOptionalNoValue(
+                ) [ArrayDeclaringOptionalNoValue]
+              ) [MethodParamDeclaring]
+              MethodParamsEpsilon(
+              ) [MethodParamsEpsilon]
+            ) [MethodParametersDeclaring]
+          ) [MethodOptionalParamsDeclaring]
+          VarsDeclaratingEpsilon(
+          ) [VarsDeclaratingEpsilon]
+          StatementListDeclaring(
+            StatementEpsilon(
+            ) [StatementEpsilon]
+            StatementReturn(
+              ExpressionOptionalValue(
+                Expression(
+                  MinusOptionalNoValue(
+                  ) [MinusOptionalNoValue]
+                  ExpressionAddTermListMember(
+                    ExpressionAddTermEpsilon(
+                      TermMulEpsion(
+                        FactorDesignating(
+                          DesignatorDeclaration(
+                           broj
+                          ) [DesignatorDeclaration]
+                          FactorActualParemeterOptionalNoValue(
+                          ) [FactorActualParemeterOptionalNoValue]
+                        ) [FactorDesignating]
+                      ) [TermMulEpsion]
+                    ) [ExpressionAddTermEpsilon]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    TermMulEpsion(
+                      FactorDesignating(
+                        DesignatorDot(
+                         Broj
+                         JEDAN
+                        ) [DesignatorDot]
+                        FactorActualParemeterOptionalNoValue(
+                        ) [FactorActualParemeterOptionalNoValue]
+                      ) [FactorDesignating]
+                    ) [TermMulEpsion]
+                  ) [ExpressionAddTermListMember]
+                ) [Expression]
+              ) [ExpressionOptionalValue]
+            ) [StatementReturn]
+          ) [StatementListDeclaring]
+        ) [MethodDeclarating]
+      ) [MethodDeclaratingList]
+      MethodDeclarating(
+        MethodVoidDeclarating(
+         mul
+        ) [MethodVoidDeclarating]
+        MethodOptionalParamsDeclaring(
+          MethodParametersDeclaring(
+            MethodParamDeclaring(
+              Type(
+               int
+              ) [Type]
+             arr
+              ArrayDeclaringOptionalValue(
+              ) [ArrayDeclaringOptionalValue]
+            ) [MethodParamDeclaring]
+            MethodParametersListing(
+              MethodParametersListing(
+                MethodParamsEpsilon(
+                ) [MethodParamsEpsilon]
+                MethodParamDeclaring(
+                  Type(
+                   int
+                  ) [Type]
+                 index
+                  ArrayDeclaringOptionalNoValue(
+                  ) [ArrayDeclaringOptionalNoValue]
+                ) [MethodParamDeclaring]
+              ) [MethodParametersListing]
+              MethodParamDeclaring(
+                Type(
+                 char
+                ) [Type]
+               b
+                ArrayDeclaringOptionalNoValue(
+                ) [ArrayDeclaringOptionalNoValue]
+              ) [MethodParamDeclaring]
+            ) [MethodParametersListing]
+          ) [MethodParametersDeclaring]
+        ) [MethodOptionalParamsDeclaring]
+        VarsDeclaratingEpsilon(
+        ) [VarsDeclaratingEpsilon]
+        StatementEpsilon(
+        ) [StatementEpsilon]
+      ) [MethodDeclarating]
+    ) [MethodDeclaratingList]
+    MethodDeclarating(
+      MethodVoidDeclarating(
+       main
+      ) [MethodVoidDeclarating]
+      NoMethodParams(
+      ) [NoMethodParams]
+      VarsDeclarating(
+        VarsDeclarating(
+          VarsDeclaratingEpsilon(
+          ) [VarsDeclaratingEpsilon]
+          VarValidDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarListSingle(
+              VarMember(
+               bodovi
+              ) [VarMember]
+            ) [VarListSingle]
+          ) [VarValidDeclaration]
+        ) [VarsDeclarating]
+        VarValidDeclaration(
+          Type(
+           Broj
+          ) [Type]
+          VarListMultiple(
+            VarListSingle(
+              VarMember(
+               nula
+              ) [VarMember]
+            ) [VarListSingle]
+            VarMember(
+             jedan
+            ) [VarMember]
+          ) [VarListMultiple]
+        ) [VarValidDeclaration]
+      ) [VarsDeclarating]
+      StatementListDeclaring(
+        StatementListDeclaring(
+          StatementListDeclaring(
+            StatementListDeclaring(
+              StatementListDeclaring(
+                StatementListDeclaring(
+                  StatementListDeclaring(
+                    StatementListDeclaring(
+                      StatementListDeclaring(
+                        StatementListDeclaring(
+                          StatementListDeclaring(
+                            StatementListDeclaring(
+                              StatementListDeclaring(
+                                StatementListDeclaring(
+                                  StatementEpsilon(
+                                  ) [StatementEpsilon]
+                                  StatementDesignating(
+                                    DesignatorActual(
+                                      DesignatorDeclaration(
+                                       mul
+                                      ) [DesignatorDeclaration]
+                                      ActualParametersOptionalValue(
+                                        ActualParameters(
+                                          Expression(
+                                            MinusOptionalNoValue(
+                                            ) [MinusOptionalNoValue]
+                                            ExpressionAddTermEpsilon(
+                                              TermMulEpsion(
+                                                FactorDesignating(
+                                                  DesignatorDeclaration(
+                                                   niz
+                                                  ) [DesignatorDeclaration]
+                                                  FactorActualParemeterOptionalNoValue(
+                                                  ) [FactorActualParemeterOptionalNoValue]
+                                                ) [FactorDesignating]
+                                              ) [TermMulEpsion]
+                                            ) [ExpressionAddTermEpsilon]
+                                          ) [Expression]
+                                          ActualParametersExpressionListMember(
+                                            ActualParametersExpressionListMember(
+                                              ActualParametersExpressionListEpsilon(
+                                              ) [ActualParametersExpressionListEpsilon]
+                                              Expression(
+                                                MinusOptionalNoValue(
+                                                ) [MinusOptionalNoValue]
+                                                ExpressionAddTermEpsilon(
+                                                  TermMulEpsion(
+                                                    FactorNum(
+                                                     0
+                                                    ) [FactorNum]
+                                                  ) [TermMulEpsion]
+                                                ) [ExpressionAddTermEpsilon]
+                                              ) [Expression]
+                                            ) [ActualParametersExpressionListMember]
+                                            Expression(
+                                              MinusOptionalNoValue(
+                                              ) [MinusOptionalNoValue]
+                                              ExpressionAddTermEpsilon(
+                                                TermMulEpsion(
+                                                  FactorChar(
+                                                   a
+                                                  ) [FactorChar]
+                                                ) [TermMulEpsion]
+                                              ) [ExpressionAddTermEpsilon]
+                                            ) [Expression]
+                                          ) [ActualParametersExpressionListMember]
+                                        ) [ActualParameters]
+                                      ) [ActualParametersOptionalValue]
+                                    ) [DesignatorActual]
+                                  ) [StatementDesignating]
+                                ) [StatementListDeclaring]
+                                StatementDesignating(
+                                  DesignatorAssignExpression(
+                                    DesignatorDeclaration(
+                                     bodovi
+                                    ) [DesignatorDeclaration]
+                                    AssignOperation(
+                                    ) [AssignOperation]
+                                    Expression(
+                                      MinusOptionalNoValue(
+                                      ) [MinusOptionalNoValue]
+                                      ExpressionAddTermEpsilon(
+                                        TermMulListMember(
+                                          TermMulEpsion(
+                                            FactorDesignating(
+                                              DesignatorArray(
+                                                ArrayDesignator(
+                                                  DesignatorDeclaration(
+                                                   niz
+                                                  ) [DesignatorDeclaration]
+                                                ) [ArrayDesignator]
+                                                Expression(
+                                                  MinusOptionalNoValue(
+                                                  ) [MinusOptionalNoValue]
+                                                  ExpressionAddTermEpsilon(
+                                                    TermMulEpsion(
+                                                      FactorNum(
+                                                       1
+                                                      ) [FactorNum]
+                                                    ) [TermMulEpsion]
+                                                  ) [ExpressionAddTermEpsilon]
+                                                ) [Expression]
+                                              ) [DesignatorArray]
+                                              FactorActualParemeterOptionalNoValue(
+                                              ) [FactorActualParemeterOptionalNoValue]
+                                            ) [FactorDesignating]
+                                          ) [TermMulEpsion]
+                                          MulopDiv(
+                                          ) [MulopDiv]
+                                          FactorDesignating(
+                                            DesignatorArray(
+                                              ArrayDesignator(
+                                                DesignatorDeclaration(
+                                                 niz
+                                                ) [DesignatorDeclaration]
+                                              ) [ArrayDesignator]
+                                              Expression(
+                                                MinusOptionalNoValue(
+                                                ) [MinusOptionalNoValue]
+                                                ExpressionAddTermEpsilon(
+                                                  TermMulEpsion(
+                                                    FactorNum(
+                                                     0
+                                                    ) [FactorNum]
+                                                  ) [TermMulEpsion]
+                                                ) [ExpressionAddTermEpsilon]
+                                              ) [Expression]
+                                            ) [DesignatorArray]
+                                            FactorActualParemeterOptionalNoValue(
+                                            ) [FactorActualParemeterOptionalNoValue]
+                                          ) [FactorDesignating]
+                                        ) [TermMulListMember]
+                                      ) [ExpressionAddTermEpsilon]
+                                    ) [Expression]
+                                  ) [DesignatorAssignExpression]
+                                ) [StatementDesignating]
+                              ) [StatementListDeclaring]
+                              StatementPrint(
+                                Expression(
+                                  MinusOptionalNoValue(
+                                  ) [MinusOptionalNoValue]
+                                  ExpressionAddTermEpsilon(
+                                    TermMulEpsion(
+                                      FactorDesignating(
+                                        DesignatorDeclaration(
+                                         bodovi
+                                        ) [DesignatorDeclaration]
+                                        FactorActualParemeterOptionalNoValue(
+                                        ) [FactorActualParemeterOptionalNoValue]
+                                      ) [FactorDesignating]
+                                    ) [TermMulEpsion]
+                                  ) [ExpressionAddTermEpsilon]
+                                ) [Expression]
+                                StatementNumConstOptionNoValue(
+                                ) [StatementNumConstOptionNoValue]
+                              ) [StatementPrint]
+                            ) [StatementListDeclaring]
+                            StatementPrint(
+                              Expression(
+                                MinusOptionalNoValue(
+                                ) [MinusOptionalNoValue]
+                                ExpressionAddTermEpsilon(
+                                  TermMulEpsion(
+                                    FactorDesignating(
+                                      DesignatorArray(
+                                        ArrayDesignator(
+                                          DesignatorDeclaration(
+                                           niz
+                                          ) [DesignatorDeclaration]
+                                        ) [ArrayDesignator]
+                                        Expression(
+                                          MinusOptionalNoValue(
+                                          ) [MinusOptionalNoValue]
+                                          ExpressionAddTermEpsilon(
+                                            TermMulEpsion(
+                                              FactorDesignating(
+                                                DesignatorDot(
+                                                 Broj
+                                                 JEDAN
+                                                ) [DesignatorDot]
+                                                FactorActualParemeterOptionalNoValue(
+                                                ) [FactorActualParemeterOptionalNoValue]
+                                              ) [FactorDesignating]
+                                            ) [TermMulEpsion]
+                                          ) [ExpressionAddTermEpsilon]
+                                        ) [Expression]
+                                      ) [DesignatorArray]
+                                      FactorActualParemeterOptionalNoValue(
+                                      ) [FactorActualParemeterOptionalNoValue]
+                                    ) [FactorDesignating]
+                                  ) [TermMulEpsion]
+                                ) [ExpressionAddTermEpsilon]
+                              ) [Expression]
+                              StatementNumConstOptionNoValue(
+                              ) [StatementNumConstOptionNoValue]
+                            ) [StatementPrint]
+                          ) [StatementListDeclaring]
+                          StatementDesignating(
+                            DesignatorAssignExpression(
+                              DesignatorDeclaration(
+                               nizch
+                              ) [DesignatorDeclaration]
+                              AssignOperation(
+                              ) [AssignOperation]
+                              Expression(
+                                MinusOptionalNoValue(
+                                ) [MinusOptionalNoValue]
+                                ExpressionAddTermEpsilon(
+                                  TermMulEpsion(
+                                    FactorNew(
+                                      Type(
+                                       char
+                                      ) [Type]
+                                      FactorExpressOptionalValue(
+                                        Expression(
+                                          MinusOptionalNoValue(
+                                          ) [MinusOptionalNoValue]
+                                          ExpressionAddTermEpsilon(
+                                            TermMulEpsion(
+                                              FactorNum(
+                                               3
+                                              ) [FactorNum]
+                                            ) [TermMulEpsion]
+                                          ) [ExpressionAddTermEpsilon]
+                                        ) [Expression]
+                                      ) [FactorExpressOptionalValue]
+                                    ) [FactorNew]
+                                  ) [TermMulEpsion]
+                                ) [ExpressionAddTermEpsilon]
+                              ) [Expression]
+                            ) [DesignatorAssignExpression]
+                          ) [StatementDesignating]
+                        ) [StatementListDeclaring]
+                        StatementDesignating(
+                          DesignatorAssignExpression(
+                            DesignatorArray(
+                              ArrayDesignator(
+                                DesignatorDeclaration(
+                                 nizch
+                                ) [DesignatorDeclaration]
+                              ) [ArrayDesignator]
+                              Expression(
+                                MinusOptionalNoValue(
+                                ) [MinusOptionalNoValue]
+                                ExpressionAddTermEpsilon(
+                                  TermMulEpsion(
+                                    FactorNum(
+                                     0
+                                    ) [FactorNum]
+                                  ) [TermMulEpsion]
+                                ) [ExpressionAddTermEpsilon]
+                              ) [Expression]
+                            ) [DesignatorArray]
+                            AssignOperation(
+                            ) [AssignOperation]
+                            Expression(
+                              MinusOptionalNoValue(
+                              ) [MinusOptionalNoValue]
+                              ExpressionAddTermEpsilon(
+                                TermMulEpsion(
+                                  FactorChar(
+                                   a
+                                  ) [FactorChar]
+                                ) [TermMulEpsion]
+                              ) [ExpressionAddTermEpsilon]
+                            ) [Expression]
+                          ) [DesignatorAssignExpression]
+                        ) [StatementDesignating]
+                      ) [StatementListDeclaring]
+                      StatementDesignating(
+                        DesignatorAssignExpression(
+                          DesignatorArray(
+                            ArrayDesignator(
+                              DesignatorDeclaration(
+                               nizch
+                              ) [DesignatorDeclaration]
+                            ) [ArrayDesignator]
+                            Expression(
+                              MinusOptionalNoValue(
+                              ) [MinusOptionalNoValue]
+                              ExpressionAddTermEpsilon(
+                                TermMulEpsion(
+                                  FactorDesignating(
+                                    DesignatorDeclaration(
+                                     jedan
+                                    ) [DesignatorDeclaration]
+                                    FactorActualParemeterOptionalNoValue(
+                                    ) [FactorActualParemeterOptionalNoValue]
+                                  ) [FactorDesignating]
+                                ) [TermMulEpsion]
+                              ) [ExpressionAddTermEpsilon]
+                            ) [Expression]
+                          ) [DesignatorArray]
+                          AssignOperation(
+                          ) [AssignOperation]
+                          Expression(
+                            MinusOptionalNoValue(
+                            ) [MinusOptionalNoValue]
+                            ExpressionAddTermEpsilon(
+                              TermMulEpsion(
+                                FactorChar(
+                                 b
+                                ) [FactorChar]
+                              ) [TermMulEpsion]
+                            ) [ExpressionAddTermEpsilon]
+                          ) [Expression]
+                        ) [DesignatorAssignExpression]
+                      ) [StatementDesignating]
+                    ) [StatementListDeclaring]
+                    StatementDesignating(
+                      DesignatorAssignExpression(
+                        DesignatorArray(
+                          ArrayDesignator(
+                            DesignatorDeclaration(
+                             nizch
+                            ) [DesignatorDeclaration]
+                          ) [ArrayDesignator]
+                          Expression(
+                            MinusOptionalNoValue(
+                            ) [MinusOptionalNoValue]
+                            ExpressionAddTermListMember(
+                              ExpressionAddTermEpsilon(
+                                TermMulEpsion(
+                                  FactorDesignating(
+                                    DesignatorDeclaration(
+                                     pet
+                                    ) [DesignatorDeclaration]
+                                    FactorActualParemeterOptionalNoValue(
+                                    ) [FactorActualParemeterOptionalNoValue]
+                                  ) [FactorDesignating]
+                                ) [TermMulEpsion]
+                              ) [ExpressionAddTermEpsilon]
+                              AddopMinus(
+                              ) [AddopMinus]
+                              TermMulEpsion(
+                                FactorNum(
+                                 3
+                                ) [FactorNum]
+                              ) [TermMulEpsion]
+                            ) [ExpressionAddTermListMember]
+                          ) [Expression]
+                        ) [DesignatorArray]
+                        AssignOperation(
+                        ) [AssignOperation]
+                        Expression(
+                          MinusOptionalNoValue(
+                          ) [MinusOptionalNoValue]
+                          ExpressionAddTermEpsilon(
+                            TermMulEpsion(
+                              FactorChar(
+                               c
+                              ) [FactorChar]
+                            ) [TermMulEpsion]
+                          ) [ExpressionAddTermEpsilon]
+                        ) [Expression]
+                      ) [DesignatorAssignExpression]
+                    ) [StatementDesignating]
+                  ) [StatementListDeclaring]
+                  StatementPrint(
+                    Expression(
+                      MinusOptionalNoValue(
+                      ) [MinusOptionalNoValue]
+                      ExpressionAddTermEpsilon(
+                        TermMulEpsion(
+                          FactorDesignating(
+                            DesignatorArray(
+                              ArrayDesignator(
+                                DesignatorDeclaration(
+                                 nizch
+                                ) [DesignatorDeclaration]
+                              ) [ArrayDesignator]
+                              Expression(
+                                MinusOptionalNoValue(
+                                ) [MinusOptionalNoValue]
+                                ExpressionAddTermEpsilon(
+                                  TermMulEpsion(
+                                    FactorDesignating(
+                                      DesignatorDeclaration(
+                                       inc
+                                      ) [DesignatorDeclaration]
+                                      FactorActualParametersOptionalValue(
+                                        ActualParametersOptionalValue(
+                                          ActualParameters(
+                                            Expression(
+                                              MinusOptionalNoValue(
+                                              ) [MinusOptionalNoValue]
+                                              ExpressionAddTermEpsilon(
+                                                TermMulEpsion(
+                                                  FactorNum(
+                                                   0
+                                                  ) [FactorNum]
+                                                ) [TermMulEpsion]
+                                              ) [ExpressionAddTermEpsilon]
+                                            ) [Expression]
+                                            ActualParametersExpressionListEpsilon(
+                                            ) [ActualParametersExpressionListEpsilon]
+                                          ) [ActualParameters]
+                                        ) [ActualParametersOptionalValue]
+                                      ) [FactorActualParametersOptionalValue]
+                                    ) [FactorDesignating]
+                                  ) [TermMulEpsion]
+                                ) [ExpressionAddTermEpsilon]
+                              ) [Expression]
+                            ) [DesignatorArray]
+                            FactorActualParemeterOptionalNoValue(
+                            ) [FactorActualParemeterOptionalNoValue]
+                          ) [FactorDesignating]
+                        ) [TermMulEpsion]
+                      ) [ExpressionAddTermEpsilon]
+                    ) [Expression]
+                    StatementNumConstOptionNoValue(
+                    ) [StatementNumConstOptionNoValue]
+                  ) [StatementPrint]
+                ) [StatementListDeclaring]
+                StatementPrint(
+                  Expression(
+                    MinusOptionalNoValue(
+                    ) [MinusOptionalNoValue]
+                    ExpressionAddTermEpsilon(
+                      TermMulEpsion(
+                        FactorDesignating(
+                          DesignatorArray(
+                            ArrayDesignator(
+                              DesignatorDeclaration(
+                               nizch
+                              ) [DesignatorDeclaration]
+                            ) [ArrayDesignator]
+                            Expression(
+                              MinusOptionalNoValue(
+                              ) [MinusOptionalNoValue]
+                              ExpressionAddTermEpsilon(
+                                TermMulListMember(
+                                  TermMulEpsion(
+                                    FactorDesignating(
+                                      DesignatorDeclaration(
+                                       jedan
+                                      ) [DesignatorDeclaration]
+                                      FactorActualParemeterOptionalNoValue(
+                                      ) [FactorActualParemeterOptionalNoValue]
+                                    ) [FactorDesignating]
+                                  ) [TermMulEpsion]
+                                  MulopMul(
+                                  ) [MulopMul]
+                                  FactorNum(
+                                   2
+                                  ) [FactorNum]
+                                ) [TermMulListMember]
+                              ) [ExpressionAddTermEpsilon]
+                            ) [Expression]
+                          ) [DesignatorArray]
+                          FactorActualParemeterOptionalNoValue(
+                          ) [FactorActualParemeterOptionalNoValue]
+                        ) [FactorDesignating]
+                      ) [TermMulEpsion]
+                    ) [ExpressionAddTermEpsilon]
+                  ) [Expression]
+                  StatementNumConstOptionNoValue(
+                  ) [StatementNumConstOptionNoValue]
+                ) [StatementPrint]
+              ) [StatementListDeclaring]
+              StatementPrint(
+                Expression(
+                  MinusOptionalNoValue(
+                  ) [MinusOptionalNoValue]
+                  ExpressionAddTermEpsilon(
+                    TermMulEpsion(
+                      FactorDesignating(
+                        DesignatorDeclaration(
+                         bodovi
+                        ) [DesignatorDeclaration]
+                        FactorActualParemeterOptionalNoValue(
+                        ) [FactorActualParemeterOptionalNoValue]
+                      ) [FactorDesignating]
+                    ) [TermMulEpsion]
+                  ) [ExpressionAddTermEpsilon]
+                ) [Expression]
+                StatementNumConstOptionNoValue(
+                ) [StatementNumConstOptionNoValue]
+              ) [StatementPrint]
+            ) [StatementListDeclaring]
+            StatementRead(
+              DesignatorDeclaration(
+               bodovi
+              ) [DesignatorDeclaration]
+            ) [StatementRead]
+          ) [StatementListDeclaring]
+          StatementDesignating(
+            DesignatorAssignExpression(
+              DesignatorDeclaration(
+               bodovi
+              ) [DesignatorDeclaration]
+              AssignOperation(
+              ) [AssignOperation]
+              Expression(
+                MinusOptionalNoValue(
+                ) [MinusOptionalNoValue]
+                ExpressionAddTermEpsilon(
+                  TermMulEpsion(
+                    FactorDesignating(
+                      DesignatorDeclaration(
+                       inc
+                      ) [DesignatorDeclaration]
+                      FactorActualParametersOptionalValue(
+                        ActualParametersOptionalValue(
+                          ActualParameters(
+                            Expression(
+                              MinusOptionalNoValue(
+                              ) [MinusOptionalNoValue]
+                              ExpressionAddTermEpsilon(
+                                TermMulEpsion(
+                                  FactorDesignating(
+                                    DesignatorDeclaration(
+                                     bodovi
+                                    ) [DesignatorDeclaration]
+                                    FactorActualParemeterOptionalNoValue(
+                                    ) [FactorActualParemeterOptionalNoValue]
+                                  ) [FactorDesignating]
+                                ) [TermMulEpsion]
+                              ) [ExpressionAddTermEpsilon]
+                            ) [Expression]
+                            ActualParametersExpressionListEpsilon(
+                            ) [ActualParametersExpressionListEpsilon]
+                          ) [ActualParameters]
+                        ) [ActualParametersOptionalValue]
+                      ) [FactorActualParametersOptionalValue]
+                    ) [FactorDesignating]
+                  ) [TermMulEpsion]
+                ) [ExpressionAddTermEpsilon]
+              ) [Expression]
+            ) [DesignatorAssignExpression]
+          ) [StatementDesignating]
+        ) [StatementListDeclaring]
+        StatementPrint(
+          Expression(
+            MinusOptionalNoValue(
+            ) [MinusOptionalNoValue]
+            ExpressionAddTermEpsilon(
+              TermMulEpsion(
+                FactorDesignating(
+                  DesignatorDeclaration(
+                   bodovi
+                  ) [DesignatorDeclaration]
+                  FactorActualParemeterOptionalNoValue(
+                  ) [FactorActualParemeterOptionalNoValue]
+                ) [FactorDesignating]
+              ) [TermMulEpsion]
+            ) [ExpressionAddTermEpsilon]
+          ) [Expression]
+          StatementNumConstOptionNoValue(
+          ) [StatementNumConstOptionNoValue]
+        ) [StatementPrint]
+      ) [StatementListDeclaring]
+    ) [MethodDeclarating]
+  ) [MethodDeclaratingList]
+) [Program]
+INFO  23:20:19,065 - Koristi se lokalna promenljiva Var broj: int, 0, 1  na liniji 16
+INFO  23:20:19,065 - Pristupamo clanu enuma `Broj.JEDAN`  na liniji 16
+INFO  23:20:19,066 - Koristi se globalna promenljiva Var niz: Arr of int, 0, 0  na liniji 29
+INFO  23:21:38,524 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 31
+INFO  23:21:38,524 - Koristi se globalna promenljiva Var niz: Arr of int, 0, 0  na liniji 31
+INFO  23:21:38,524 - Prostupamo clanu niza niz na liniji 31
+INFO  23:21:38,525 - Koristi se globalna promenljiva Var niz: Arr of int, 0, 0  na liniji 31
+INFO  23:21:38,525 - Prostupamo clanu niza niz na liniji 31
+INFO  23:21:38,525 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 32
+INFO  23:21:38,525 - Koristi se globalna promenljiva Var niz: Arr of int, 0, 0  na liniji 33
+INFO  23:21:38,525 - Pristupamo clanu enuma `Broj.JEDAN`  na liniji 33
+INFO  23:21:38,525 - Prostupamo clanu niza niz na liniji 33
+INFO  23:21:38,525 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 36
+INFO  23:21:38,525 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 37
+INFO  23:21:38,525 - Prostupamo clanu niza nizch na liniji 37
+INFO  23:21:38,525 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 38
+INFO  23:21:38,526 - Koristi se lokalna promenljiva Var jedan: , 2, 1  na liniji 38
+INFO  23:21:38,526 - Prostupamo clanu niza nizch na liniji 38
+INFO  23:21:38,526 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 39
+INFO  23:21:38,526 - Koristi se konstanta Con pet: int, 5, 0  na liniji 39
+INFO  23:21:38,526 - Prostupamo clanu niza nizch na liniji 39
+INFO  23:21:38,526 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 40
+INFO  23:21:38,526 - Prostupamo clanu niza nizch na liniji 40
+INFO  23:21:38,526 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 41
+INFO  23:21:38,526 - Koristi se lokalna promenljiva Var jedan: , 2, 1  na liniji 41
+INFO  23:21:38,526 - Prostupamo clanu niza nizch na liniji 41
+INFO  23:21:38,526 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 45
+INFO  23:21:38,526 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 48
+INFO  23:21:38,526 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 49
+INFO  23:21:38,526 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 49
+INFO  23:21:38,527 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 50
+INFO  23:21:38,527 - Print calls = 0
+INFO  23:21:38,527 - Generating bytecode file: /home/matijalukic/Desktop/ppProjekat/projekat/MJCompiler/test/program.obj
+INFO  23:21:38,530 - Parsiranje uspesno zavrseno!

@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6011cd7c-09ef-4eae-b67f-66b77531f261" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/program.mj" beforeDir="false" afterPath="$PROJECT_DIR$/bin/program.mj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/SemanticAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/SemanticAnalyzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MJCompiler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MJCompiler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/mj-test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mj-test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/program.mj" beforeDir="false" afterPath="$PROJECT_DIR$/test/program.mj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/program.obj" beforeDir="false" afterPath="$PROJECT_DIR$/test/program.obj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -25,69 +25,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/mjparser.cup">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="270" column="62" selection-start-line="270" selection-start-column="33" selection-end-line="270" selection-end-column="62" />
+            <state relative-caret-position="298">
+              <caret line="320" column="20" selection-start-line="320" selection-start-column="13" selection-end-line="320" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java">
+        <entry file="file://$PROJECT_DIR$/test/program.mj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="503" selection-start-line="503" selection-end-line="503" />
+            <state relative-caret-position="506">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#20597#20598#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1135#1136#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1923#1924#0" expanded="true" />
+                <element signature="e#1948#1949#0" expanded="true" />
+                <element signature="e#3480#3481#0" expanded="true" />
+                <element signature="e#3517#3518#0" expanded="true" />
+                <element signature="e#3567#3568#0" expanded="true" />
+                <element signature="e#3590#3591#0" expanded="true" />
+                <element signature="e#3654#3655#0" expanded="true" />
+                <element signature="e#3677#3678#0" expanded="true" />
+                <element signature="e#3783#3784#0" expanded="true" />
+                <element signature="e#3825#3826#0" expanded="true" />
+                <element signature="e#3891#3892#0" expanded="true" />
+                <element signature="e#3907#3908#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermMulEpsion.java">
+        <entry file="jar://$PROJECT_DIR$/lib/mj-runtime-1.1.jar!/rs/etf/pp1/mj/runtime/Code.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/symboltable-1-1.jar!/rs/etf/pp1/symboltable/concepts/Obj.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActualParametersExpressionList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#846#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/symboltable-1-1.jar!/rs/etf/pp1/symboltable/Tab.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="829">
-              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/symboltable-1-1.jar!/rs/etf/pp1/symboltable/concepts/Struct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="418">
+              <caret line="162" column="14" lean-forward="true" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -95,17 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Compiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/program.mj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="252">
+              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -121,14 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Fac</find>
-      <find>MinusOptional</find>
-      <find>DesignatorArray</find>
-      <find>passe</find>
-      <find>ExpressionOptionalV</find>
-      <find>Sta</find>
-      <find>(Expression</find>
-      <find>FactorNew</find>
       <find>Simbol koji dodeljujemo ne sme biti tip</find>
       <find>MethodParam</find>
       <find>ActualParameters</find>
@@ -144,13 +113,21 @@
       <find>ExpressionAddTermListMember</find>
       <find>DesignatorAssignExpression</find>
       <find>DesigantorStatement</find>
-      <find>Designator</find>
       <find>Broj</find>
       <find>FactorDesi</find>
       <find>DesignatorActual</find>
       <find>FactorActualParametersOptional</find>
       <find>ActualParametersOptional</find>
       <find>ActualParametersOptionalValue</find>
+      <find>StatementPrint</find>
+      <find>Statement</find>
+      <find>StatementNumConstOptionalValue</find>
+      <find>FactorDesigna</find>
+      <find>FactorExpressionOptional</find>
+      <find>Designator</find>
+      <find>DesignatorAss</find>
+      <find>Factor</find>
+      <find>TermMul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,6 +148,7 @@
         <option value="$PROJECT_DIR$/spec/mjparser.cup" />
         <option value="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java" />
         <option value="$PROJECT_DIR$/test/program.mj" />
+        <option value="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" />
       </list>
     </option>
   </component>
@@ -191,8 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,13 +197,6 @@
             <path>
               <item name="MJCompiler" type="b2602c69:ProjectViewProjectNode" />
               <item name="MJCompiler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pp1" type="462c0819:PsiDirectoryNode" />
-              <item name="ast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MJCompiler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MJCompiler" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,7 +219,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/symboltable-1-1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mj-runtime-1.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -268,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Compiler">
+  <component name="RunManager" selected="Application.Runtime">
     <configuration name="Compiler" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="rs.ac.bg.etf.pp1.Compiler" />
       <module name="MJCompiler" />
@@ -357,7 +328,8 @@
       <workItem from="1560453168124" duration="8668000" />
       <workItem from="1560592996633" duration="742000" />
       <workItem from="1560786621384" duration="3345000" />
-      <workItem from="1560841370988" duration="8651000" />
+      <workItem from="1560841370988" duration="8840000" />
+      <workItem from="1560969573210" duration="3373000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing method local variables declaration">
       <created>1560452349026</created>
@@ -373,17 +345,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560787357068</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Semantic finished">
+      <created>1560850753012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560850753012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55260000" />
+    <option name="totallyTimeSpent" value="58822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20917822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2113127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,7 +371,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info active="true" anchor="bottom" x="1920" y="55" width="933" height="1025" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32984293" />
+      <window_info active="true" anchor="bottom" x="1920" y="57" width="973" height="1023" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32984293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48793283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +401,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixing method local variables declaration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing method local variables declaration" />
+    <MESSAGE value="Semantic finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Semantic finished" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -653,16 +633,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10122">
+          <caret line="503" selection-start-line="503" selection-end-line="503" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#20544#20545#0" expanded="true" />
+            <element signature="e#20597#20598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/symboltable-1-1.jar!/rs/etf/pp1/symboltable/concepts/Obj.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="399">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActualParametersExpressionList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="420">
           <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding>
             <element signature="e#0#846#0" expanded="true" />
@@ -672,7 +664,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/symboltable-1-1.jar!/rs/etf/pp1/symboltable/Tab.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
+        <state relative-caret-position="1722">
           <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
         </state>
       </provider>
@@ -684,42 +676,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Compiler.java">
+    <entry file="jar://$PROJECT_DIR$/lib/symboltable-1-1.jar!/rs/etf/pp1/symboltable/concepts/Obj.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/symboltable-1-1.jar!/rs/etf/pp1/symboltable/Tab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2583">
+          <caret line="131" column="58" lean-forward="true" selection-start-line="131" selection-start-column="58" selection-end-line="131" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermMulEpsion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="355">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Compiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mj-runtime-1.1.jar!/rs/etf/pp1/mj/runtime/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="162" column="14" lean-forward="true" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/mjparser.cup">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="270" column="62" selection-start-line="270" selection-start-column="33" selection-end-line="270" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="503" selection-start-line="503" selection-end-line="503" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#20597#20598#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="320" column="20" selection-start-line="320" selection-start-column="13" selection-end-line="320" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/program.mj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="506">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3517#3518#0" expanded="true" />
+            <element signature="e#3567#3568#0" expanded="true" />
+            <element signature="e#3590#3591#0" expanded="true" />
+            <element signature="e#3654#3655#0" expanded="true" />
+            <element signature="e#3677#3678#0" expanded="true" />
+            <element signature="e#3783#3784#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
+            <element signature="e#3891#3892#0" expanded="true" />
+            <element signature="e#3907#3908#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

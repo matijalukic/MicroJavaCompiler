@@ -1,0 +1,19 @@
+INFO  00:01:52,050 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 31
+INFO  00:01:52,051 - Koristi se globalna promenljiva Var niz: Arr of int, 0, 0  na liniji 31
+INFO  00:01:52,051 - Prostupamo clanu niza niz na liniji 31
+INFO  00:01:52,051 - Koristi se globalna promenljiva Var niz: Arr of int, 0, 0  na liniji 31
+INFO  00:01:52,051 - Prostupamo clanu niza niz na liniji 31
+INFO  00:01:52,051 - Koristi se lokalna promenljiva Var bodovi: int, 0, 1  na liniji 32
+INFO  00:01:52,051 - Koristi se globalna promenljiva Var niz: Arr of int, 0, 0  na liniji 33
+INFO  00:01:52,051 - Pristupamo clanu enuma `Broj.JEDAN`  na liniji 33
+INFO  00:01:52,051 - Prostupamo clanu niza niz na liniji 33
+INFO  00:01:52,051 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 36
+INFO  00:01:52,051 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 37
+INFO  00:01:52,051 - Prostupamo clanu niza nizch na liniji 37
+INFO  00:01:52,051 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 38
+INFO  00:01:52,051 - Koristi se lokalna promenljiva Var jedan: , 2, 1  na liniji 38
+INFO  00:01:52,051 - Prostupamo clanu niza nizch na liniji 38
+INFO  00:01:52,051 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 39
+INFO  00:01:52,051 - Koristi se konstanta Con pet: int, 5, 0  na liniji 39
+INFO  00:01:52,051 - Prostupamo clanu niza nizch na liniji 39
+INFO  00:01:52,051 - Koristi se globalna promenljiva Var nizch: Arr of char, 1, 0  na liniji 40
