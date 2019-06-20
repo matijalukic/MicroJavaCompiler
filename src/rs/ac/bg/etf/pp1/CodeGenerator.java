@@ -6,6 +6,8 @@ import rs.etf.pp1.mj.runtime.Code;
 import rs.etf.pp1.symboltable.Tab;
 import rs.etf.pp1.symboltable.concepts.Obj;
 
+import javax.swing.plaf.synth.SynthEditorPaneUI;
+
 public class CodeGenerator extends VisitorAdaptor {
 	
 	private int varCount;
@@ -25,29 +27,9 @@ public class CodeGenerator extends VisitorAdaptor {
 	}
 
 
-	@Override
-	public void visit(MethodVoidDeclarating methodVoidDeclarating) {
-
-		// set the main PC for the method void
-		if("main".equals(methodVoidDeclarating.getMName())){
-			mainPc = Code.pc;
-		}
-
-		Code.put(Code.enter);
-		Code.put(0);
-		Code.put(methodVoidDeclarating.obj.getLocalSymbols().size()); // todo check why is + 0
-
-		methodVoidDeclarating.obj.setAdr(mainPc);
-	}
 
 
-	@Override
-	public void visit(MethodDeclarating methodDeclaration) {
-		Code.put(Code.exit);
-		Code.put(Code.return_);
-	}
-
-	private int statementPrintNumConst = 1;
+	private int statementPrintNumConst = 1;// width of the print
 
 	@Override
 	public void visit(StatementNumConstOptionalValue node) {
@@ -153,7 +135,6 @@ public class CodeGenerator extends VisitorAdaptor {
 		}
 		// calling the method
 		else {
-			// todo calling the method
 		}
 	}
 
@@ -220,4 +201,102 @@ public class CodeGenerator extends VisitorAdaptor {
 		Code.store(node.getDesignator().obj);
 
 	}
+
+
+	private static class MethodParamsCounter extends VisitorAdaptor{
+
+		int parameterCounter = 0;
+
+		@Override
+		public void visit(MethodParamDeclaring methodTypeDeclarating) {
+			parameterCounter++;
+		}
+	}
+
+
+	@Override
+	public void visit(MethodTypeDeclarating node) {
+		// set the method address
+		node.obj.setAdr(Code.pc);
+
+		MethodParamsCounter methodParamsCounter = new MethodParamsCounter();
+		node.getParent().traverseTopDown(methodParamsCounter);
+
+		Code.put(Code.enter); // enter to the method
+		Code.put(methodParamsCounter.parameterCounter); // broj argumenata
+ 		Code.put(node.obj.getLocalSymbols().size()); // broj argumenata + lokalnih promenljivih
+
+	}
+
+	@Override
+	public void visit(MethodVoidDeclarating methodVoidDeclarating) {
+
+		// set the main PC for the method void
+		if("main".equals(methodVoidDeclarating.getMName())){
+			mainPc = Code.pc;
+		}
+		methodVoidDeclarating.obj.setAdr(Code.pc); // set the program counter of the method
+
+		MethodParamsCounter methodParamsCounter = new MethodParamsCounter();
+		methodVoidDeclarating.getParent().traverseTopDown(methodParamsCounter);
+
+		Code.put(Code.enter); // pocetak obrade metode
+		Code.put(methodParamsCounter.parameterCounter); // number of params
+		Code.put(methodVoidDeclarating.obj.getLocalSymbols().size()); // broj promenljivih metode + broj lokalnih
+
+
+	}
+
+//	@Override
+//	public void visit(StatementReturn statementReturn) {
+//		Code.put(Code.dup);
+//		Code.put(Code.exit);
+//		Code.put(Code.return_);
+//	}
+
+	@Override
+	public void visit(MethodDeclarating methodDeclaration) {
+		// returning value
+		if(methodDeclaration.getMethodTypeDeclaration() instanceof MethodTypeDeclarating)
+			Code.put(Code.dup);
+		Code.put(Code.exit);
+		Code.put(Code.return_);
+	}
+
+
+	@Override
+	public void visit(ActualParametersOptionalValue methodCall) {
+		SyntaxNode methodDesignator;
+		methodDesignator = methodCall.getParent();
+
+		while(
+			!(methodDesignator instanceof DesignatorActual)
+			&&
+			!(methodDesignator instanceof FactorDesignating) // indirect method calling
+			&&
+			methodDesignator != null
+		){
+			methodDesignator = methodDesignator.getParent();
+		}
+
+
+
+		Obj methodToCallObj;
+		if(methodDesignator instanceof DesignatorActual)
+			methodToCallObj = ((DesignatorActual) methodDesignator).getDesignator().obj;
+		else
+			methodToCallObj = ((FactorDesignating) methodDesignator).getDesignator().obj;
+
+		int offset = methodToCallObj.getAdr() - Code.pc;
+
+
+		Code.put(Code.call);
+		Code.put2(offset);
+
+		// if it is returning pop the return value
+		if(!methodToCallObj.getType().equals(Tab.noType)){
+			Code.put(Code.pop);
+		}
+	}
+
 }

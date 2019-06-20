@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6011cd7c-09ef-4eae-b67f-66b77531f261" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MJCompiler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MJCompiler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/program.mj" beforeDir="false" afterPath="$PROJECT_DIR$/bin/program.mj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/program.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/CodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/Compiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/CounterVisitor$FormParamCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/CounterVisitor$FormParamCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/CounterVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/CounterVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/MJParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/MJParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/MJTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/MJTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/Yylex.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/Yylex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ActivateParametersExpressionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ActivateParametersExpressionList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ActivateParametersOptional.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ActivateParametersOptional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ConditionTermListDerived1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ConditionTermListDerived1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/DesigantorStatementOptional.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/DesigantorStatementOptional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/DesignatorActivate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/DesignatorActivate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/Expr.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/Expr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/FactorActivateParametersOptional.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/FactorActivateParametersOptional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/MethodDecl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/MethodDecl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/MethodDeclList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/MethodDeclList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/MethodTypeName.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/MethodTypeName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ProgName.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ProgName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ProgramVarDeclarations.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ProgramVarDeclarations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/StatementForNoCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/StatementForNoCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/VarDeclarations.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/VarDeclarations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/VarInvalidDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/VarInvalidDeclaration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/sym_old.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/sym_old.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/util/Log4JUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/util/Log4JUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mj-runtime.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/mj-test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mj-test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/program.mj" beforeDir="false" afterPath="$PROJECT_DIR$/test/program.mj" afterDir="false" />
@@ -25,64 +52,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/mjparser.cup">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="320" column="20" selection-start-line="320" selection-start-column="13" selection-end-line="320" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/program.mj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="424">
+              <caret line="175" column="61" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java">
+        <entry file="file://$PROJECT_DIR$/test/program.mj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+            <state relative-caret-position="506">
+              <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="382" column="41" lean-forward="true" selection-start-line="382" selection-start-column="41" selection-end-line="382" selection-end-column="41" />
               <folding>
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1206#1207#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#1923#1924#0" expanded="true" />
-                <element signature="e#1948#1949#0" expanded="true" />
-                <element signature="e#3480#3481#0" expanded="true" />
-                <element signature="e#3517#3518#0" expanded="true" />
-                <element signature="e#3567#3568#0" expanded="true" />
-                <element signature="e#3590#3591#0" expanded="true" />
-                <element signature="e#3654#3655#0" expanded="true" />
-                <element signature="e#3677#3678#0" expanded="true" />
-                <element signature="e#3783#3784#0" expanded="true" />
-                <element signature="e#3825#3826#0" expanded="true" />
-                <element signature="e#3891#3892#0" expanded="true" />
-                <element signature="e#3907#3908#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#20544#20545#0" expanded="true" />
+                <element signature="e#20597#20598#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mj-runtime-1.1.jar!/rs/etf/pp1/mj/runtime/Code.java">
+        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="162" column="14" lean-forward="true" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Compiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="556">
+              <caret line="263" column="5" lean-forward="true" selection-start-line="263" selection-start-column="5" selection-end-line="263" selection-end-column="5" />
+              <folding>
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#4230#4231#0" expanded="true" />
+                <element signature="e#4257#4258#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,36 +109,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Simbol koji dodeljujemo ne sme biti tip</find>
-      <find>MethodParam</find>
-      <find>ActualParameters</find>
-      <find>MethodTypeDeclarating</find>
-      <find>currentMethod</find>
-      <find>returnFound</find>
-      <find>ExpressionOptional</find>
-      <find>MethodDeclarating</find>
-      <find>StatementList</find>
-      <find>StatementReturn</find>
-      <find>getExpressionAddTermList</find>
-      <find>Expression</find>
-      <find>ExpressionAddTermListMember</find>
-      <find>DesignatorAssignExpression</find>
-      <find>DesigantorStatement</find>
-      <find>Broj</find>
-      <find>FactorDesi</find>
       <find>DesignatorActual</find>
-      <find>FactorActualParametersOptional</find>
-      <find>ActualParametersOptional</find>
-      <find>ActualParametersOptionalValue</find>
       <find>StatementPrint</find>
       <find>Statement</find>
       <find>StatementNumConstOptionalValue</find>
       <find>FactorDesigna</find>
       <find>FactorExpressionOptional</find>
-      <find>Designator</find>
       <find>DesignatorAss</find>
       <find>Factor</find>
       <find>TermMul</find>
+      <find>StatementRead</find>
+      <find>MethodDeclar</find>
+      <find>nVars</find>
+      <find>FactorNew</find>
+      <find>mainPc</find>
+      <find>DesignatorStatement</find>
+      <find>DesigantorStatement</find>
+      <find>Designator</find>
+      <find>aload</find>
+      <find>FactorDesignat</find>
+      <find>ActualParametersOptional</find>
+      <find>FactorActualParametersOptional</find>
+      <find>Code.load(</find>
+      <find>DesignatorIncre</find>
+      <find>DesignatorIncrementing</find>
+      <find>INCREMENT</find>
+      <find>MethodParamsOptional</find>
+      <find>MethodType</find>
+      <find>ActualParametersOptionalValue</find>
+      <find>MethodDeclarating</find>
+      <find>enter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,8 +158,8 @@
         <option value="$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJParserTest.java" />
         <option value="$PROJECT_DIR$/spec/mjparser.cup" />
         <option value="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java" />
-        <option value="$PROJECT_DIR$/test/program.mj" />
         <option value="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/test/program.mj" />
       </list>
     </option>
   </component>
@@ -169,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -181,7 +191,7 @@
             <path>
               <item name="MJCompiler" type="b2602c69:ProjectViewProjectNode" />
               <item name="MJCompiler" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MJCompiler" type="b2602c69:ProjectViewProjectNode" />
@@ -204,22 +214,19 @@
               <item name="MJCompiler" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="pp1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MJCompiler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mj-runtime-1.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/run config/Run.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -330,6 +337,7 @@
       <workItem from="1560786621384" duration="3345000" />
       <workItem from="1560841370988" duration="8840000" />
       <workItem from="1560969573210" duration="3373000" />
+      <workItem from="1561024177886" duration="15203000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing method local variables declaration">
       <created>1560452349026</created>
@@ -356,13 +364,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58822000" />
+    <option name="totallyTimeSpent" value="74025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2113127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21344717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info active="true" anchor="bottom" x="1920" y="57" width="973" height="1023" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32984293" />
+      <window_info active="true" anchor="bottom" x="1920" y="55" width="895" height="1025" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32984293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48793283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,19 +412,41 @@
     <MESSAGE value="Semantic finished" />
     <option name="LAST_COMMIT_MESSAGE" value="Semantic finished" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java</url>
+          <line>224</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/run config/Compile MJ Source.xml">
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/run config/Disasm.xml">
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/run config/LexerGenerator.xml">
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/run config/MJTest.xml">
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/run config/ParserGenerator.xml">
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/run config/Run.xml">
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MJCompiler.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/mjparser2.cup" />
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConditionFact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -543,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActualParametersOptionalValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ArrayDeclaresOptional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -633,18 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10122">
-          <caret line="503" selection-start-line="503" selection-end-line="503" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#20544#20545#0" expanded="true" />
-            <element signature="e#20597#20598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/symboltable-1-1.jar!/rs/etf/pp1/symboltable/concepts/Obj.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -697,58 +708,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Compiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/run config/Compile MJ Source.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mj-runtime-1.1.jar!/rs/etf/pp1/mj/runtime/Code.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="162" column="14" lean-forward="true" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
+        <state relative-caret-position="-401">
+          <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mj-runtime-1.1.jar!/rs/etf/pp1/mj/runtime/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Compiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="54" column="70" lean-forward="true" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorActual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActualParametersOptionalValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorActualParametersOptionalValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorActualParametersOptional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mj-runtime-1.1.jar!/rs/etf/pp1/mj/runtime/Code.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="382" column="41" lean-forward="true" selection-start-line="382" selection-start-column="41" selection-end-line="382" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#20544#20545#0" expanded="true" />
+            <element signature="e#20597#20598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/mjparser.cup">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="320" column="20" selection-start-line="320" selection-start-column="13" selection-end-line="320" selection-end-column="20" />
+        <state relative-caret-position="424">
+          <caret line="175" column="61" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="263" column="5" lean-forward="true" selection-start-line="263" selection-start-column="5" selection-end-line="263" selection-end-column="5" />
+          <folding>
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#4230#4231#0" expanded="true" />
+            <element signature="e#4257#4258#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/program.mj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
-          <folding>
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1923#1924#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#3480#3481#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3567#3568#0" expanded="true" />
-            <element signature="e#3590#3591#0" expanded="true" />
-            <element signature="e#3654#3655#0" expanded="true" />
-            <element signature="e#3677#3678#0" expanded="true" />
-            <element signature="e#3783#3784#0" expanded="true" />
-            <element signature="e#3825#3826#0" expanded="true" />
-            <element signature="e#3891#3892#0" expanded="true" />
-            <element signature="e#3907#3908#0" expanded="true" />
-          </folding>
+          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
         </state>
       </provider>
     </entry>
